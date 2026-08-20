@@ -1,1 +1,0 @@
-Temporary marker for the Plotly nbformat fix branch.
