@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+dist/
+_build/
+captured_hivdb/
+content/data/*.xlsx
+content/data/*.xls
+content/data/current/
+!content/data/README.md

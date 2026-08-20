@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this teaching repository, please cite it and the Stanford HIVDB/source surveillance studies."
+title: "JupyterLite HIV Drug Resistance Maps"
+type: software
+authors:
+  - family-names: Tobias
+    given-names: James L.
+version: 0.1.0
+date-released: 2026-08-20
+license: MIT
+repository-code: "https://github.com/jltobias/JupyterLite-HIVDB-Drug-Resistance-Maps"
+keywords:
+  - HIV
+  - drug resistance
+  - epidemiology
+  - GIS
+  - JupyterLite
+  - surveillance
