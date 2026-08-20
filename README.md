@@ -2,6 +2,14 @@
 
 Browser-based, reproducible examples for mapping **transmitted HIV drug resistance (TDR)** using public data associated with the Stanford HIV Drug Resistance Database (HIVDB).
 
+## Launch the live JupyterLite notebooks
+
+Open the browser-based notebook environment here:
+
+**[Launch JupyterLite](https://jltobias.github.io/JupyterLite-HIVDB-Drug-Resistance-Maps/)**
+
+No local Python or Jupyter installation is required once the GitHub Pages deployment is active.
+
 ## What this repository does
 
 - builds a JupyterLite site that runs entirely in the browser;
