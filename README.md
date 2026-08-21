@@ -1,6 +1,6 @@
 # JupyterLite HIV Drug Resistance Maps
 
-Browser-based, reproducible examples for mapping **transmitted HIV drug resistance (TDR)** using public data associated with the Stanford HIV Drug Resistance Database (HIVDB).
+Browser-based, reproducible examples for learning the fundamentals of **HIV drug resistance (HIVDR)** and mapping **transmitted HIV drug resistance (TDR)** using public data associated with the Stanford HIV Drug Resistance Database (HIVDB).
 
 ## Launch the live JupyterLite notebooks
 
@@ -12,6 +12,7 @@ No local Python or Jupyter installation is required once the GitHub Pages deploy
 
 ## What this repository does
 
+- introduces HIV drug-resistance fundamentals with a visual, citation-rich Notebook 00;
 - builds a JupyterLite site that runs entirely in the browser;
 - downloads and normalizes the openly published 2015 HIVDB/PLOS surveillance study table (287 studies, 111 countries, 50,870 ART-naive people) as a reproducible baseline;
 - creates country-level coverage and sample-size-weighted TDR summaries from **single-country studies**;
@@ -35,11 +36,12 @@ See [DATA_SOURCES.md](DATA_SOURCES.md) and [METHODOLOGY.md](METHODOLOGY.md).
 
 The `content/` directory contains:
 
+0. **00_hiv_drug_resistance_fundamentals.ipynb** — learn the biology, vocabulary, drug classes, mutation notation, resistance categories, and Stanford HIVDB interpretation concepts before working with surveillance data.
 1. **01_data_coverage.ipynb** — inspect provenance, country coverage, sample sizes, and missingness.
 2. **02_global_tdr_choropleth.ipynb** — create a global choropleth of overall or drug-class TDR.
 3. **03_drug_class_and_time.ipynb** — compare NRTI/NNRTI/PI patterns and explore study-year distributions.
 
-The notebooks only read static CSV files packaged into JupyterLite. Network retrieval happens during the GitHub Actions build, not in the browser, which avoids CORS and reproducibility problems.
+Notebook 00 is primarily narrative and visual. Notebooks 01–03 read static CSV files packaged into JupyterLite. Network retrieval happens during the GitHub Actions build, not in the browser, which avoids CORS and reproducibility problems.
 
 ## Local quick start
 
