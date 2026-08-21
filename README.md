@@ -17,6 +17,7 @@ No local Python or Jupyter installation is required once the GitHub Pages deploy
 - downloads and normalizes the openly published 2015 HIVDB/PLOS surveillance study table (287 studies, 111 countries, 50,870 ART-naive people) as a reproducible baseline;
 - creates country-level coverage and sample-size-weighted TDR summaries from **single-country studies**;
 - maps overall, NRTI, NNRTI, and PI TDR with Plotly choropleths;
+- adds an MCH-centered pediatric HIVDR case study linking presentation-derived pediatric DTG-resistance examples to Stanford HIVDB mutation-interpretation concepts;
 - provides an experimental, low-request Playwright network-capture utility for discovering the current HIVDB surveillance map's machine-readable payload without mass crawling;
 - provides a generic importer for a current HIVDB CSV/JSON/XLS/XLSX export once a stable export/API URL is documented.
 
@@ -40,8 +41,9 @@ The `content/` directory contains:
 1. **01_data_coverage.ipynb** — inspect provenance, country coverage, sample sizes, and missingness.
 2. **02_global_tdr_choropleth.ipynb** — create a global choropleth of overall or drug-class TDR.
 3. **03_drug_class_and_time.ipynb** — compare NRTI/NNRTI/PI patterns and explore study-year distributions.
+4. **04_pediatric_hivdr_mch_case_study.ipynb** — explore pediatric HIVDR in the dolutegravir era using an MCH-centered case study, presentation-derived CADRE examples, synthetic pediatric mutation profiles, and Stanford HIVDB interpretation concepts. The MCH presentation is credited to Spencer Lloyd, MPH, MD; Laura Broyles, MD; and Jason Bacha, MD.
 
-Notebook 00 is primarily narrative and visual. Notebooks 01–03 read static CSV files packaged into JupyterLite. Network retrieval happens during the GitHub Actions build, not in the browser, which avoids CORS and reproducibility problems.
+Notebook 00 is primarily narrative and visual. Notebooks 01–03 read static CSV files packaged into JupyterLite. Notebook 04 is a self-contained educational case study with synthetic genotype profiles and presentation-derived aggregate examples. Network retrieval happens during the GitHub Actions build, not in the browser, which avoids CORS and reproducibility problems.
 
 ## Local quick start
 
@@ -111,4 +113,4 @@ tests/                       transformation and aggregation tests
 
 ## Citation and attribution
 
-Please cite Stanford HIVDB and the source studies used in your analysis. The repository's code is MIT licensed; source datasets retain their own terms/licensing. The 2015 PLOS Medicine article and its supporting material are dedicated to the public domain under CC0.
+Please cite Stanford HIVDB and the source studies used in your analysis. Notebook 04 also cites and attributes the MCH Office Hours presentation *HIV Drug Resistance in MCH Populations* to Spencer Lloyd, MPH, MD; Laura Broyles, MD; and Jason Bacha, MD. The repository's code is MIT licensed; source datasets retain their own terms/licensing. The 2015 PLOS Medicine article and its supporting material are dedicated to the public domain under CC0.
