@@ -10,6 +10,12 @@ Open the browser-based notebook environment here:
 
 No local Python or Jupyter installation is required once the GitHub Pages deployment is active.
 
+### Fresh notebooks after each deployment
+
+JupyterLite stores edited notebooks in browser storage, and a locally modified copy can otherwise take precedence over a newer server copy. This repository therefore gives each GitHub Pages deployment a new JupyterLite content-storage namespace based on the deployment commit SHA and explicitly disables service-worker caching. After a successful Pages deployment, reopening the launch link should show the notebook set published by that deployment without requiring a manual browser-cache clear.
+
+Because browser-local edits belong to the deployment in which they were created, edits from an older deployment will not automatically appear in a newer deployment. Export or download any work you want to preserve before moving to a newly deployed version. If the browser still shows stale content, use **Help → Clear Browser Data** in JupyterLite as a manual reset.
+
 ## What this repository does
 
 - introduces HIV drug-resistance fundamentals with a visual, citation-rich Notebook 00;
@@ -97,6 +103,8 @@ This is a teaching repository, not a replacement for HIVDB, WHO guidance, or a f
 ## GitHub Pages
 
 The included workflow builds JupyterLite and deploys it with GitHub Pages. In repository settings, set **Pages → Build and deployment → Source = GitHub Actions**.
+
+Each deployment writes a runtime `jupyter-lite.json` that sets `contentsStorageName` to a value derived from the GitHub commit SHA and sets `enableServiceWorkerCache` to `false`. This prevents browser-local notebook copies from an older deployment from silently overriding newer published notebooks.
 
 ## Repository layout
 

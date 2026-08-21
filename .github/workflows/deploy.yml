@@ -33,6 +33,23 @@ jobs:
         run: python scripts/fetch_plos_2015.py --output-dir content/data
       - name: Validate generated data
         run: python scripts/validate_outputs.py --data-dir content/data
+      - name: Configure fresh browser storage for this deployment
+        run: |
+          cat > jupyter-lite.json <<EOF
+          {
+            "jupyter-lite-schema-version": 0,
+            "jupyter-config-data": {
+              "enableServiceWorkerCache": false,
+              "contentsStorageName": "HIVDR-JupyterLite-${GITHUB_SHA}",
+              "versionInfo": {
+                "deployment": {
+                  "label": "GitHub commit",
+                  "version": "${GITHUB_SHA}"
+                }
+              }
+            }
+          }
+          EOF
       - name: Build JupyterLite
         run: |
           jupyter lite build --contents content --output-dir dist
