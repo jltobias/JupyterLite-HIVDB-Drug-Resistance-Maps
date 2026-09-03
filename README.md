@@ -37,7 +37,7 @@ The reproducible default dataset is the public-domain supporting spreadsheet fro
 
 HIVDB's current homepage describes a larger Transmitted Resistance Surveillance Map with published sequences from **more than 95,000 ART-naive persons in more than 120 countries**. During repository preparation, no stable documented download/API endpoint for that map was found in HIVDB's public documentation. For that reason, this project does **not** pretend that the 2015 snapshot is the current database.
 
-See [DATA_SOURCES.md](DATA_SOURCES.md) and [METHODOLOGY.md](METHODOLOGY.md).
+See [DATA_SOURCES.md](DATA_SOURCES.md), [METHODOLOGY.md](METHODOLOGY.md), and the [optional patient-level input schema](docs/schema.md).
 
 ## JupyterLite notebooks
 
@@ -48,8 +48,12 @@ The `content/` directory contains:
 2. **02_global_tdr_choropleth.ipynb** — create a global choropleth of overall or drug-class TDR.
 3. **03_drug_class_and_time.ipynb** — compare NRTI/NNRTI/PI patterns and explore study-year distributions.
 4. **04_pediatric_hivdr_mch_case_study.ipynb** — explore pediatric HIVDR in the dolutegravir era using an MCH-centered case study, presentation-derived CADRE examples, synthetic pediatric mutation profiles, and Stanford HIVDB interpretation concepts. The MCH presentation is credited to Spencer Lloyd, MPH, MD; Laura Broyles, MD; and Jason Bacha, MD.
+5. **05_mutation_geographic_clusters.ipynb** — screen patient-level mutation prevalence by geography and define a spatial-clustering analysis.
+6. **06_resistance_stratification.ipynb** — drill down by subtype, ART experience, acquired/transmitted status, mutation, and drug class.
+7. **07_subtype_standardized_geography.ipynb** — compare crude and directly subtype-standardized geographic estimates.
+8. **08_nnrtI_to_dtg_geographic_history.ipynb** — compare earlier NNRTI resistance with later DTG resistance using paired country-time observations.
 
-Notebook 00 is primarily narrative and visual. Notebooks 01–03 read static CSV files packaged into JupyterLite. Notebook 04 is a self-contained educational case study with synthetic genotype profiles and presentation-derived aggregate examples. Network retrieval happens during the GitHub Actions build, not in the browser, which avoids CORS and reproducibility problems.
+Notebook 00 is primarily narrative and visual. Notebooks 01–03 read static CSV files packaged into JupyterLite. Notebook 04 is a self-contained educational case study with synthetic genotype profiles and presentation-derived aggregate examples. Notebooks 05–08 are deliberately conditional templates: the 2015 aggregate snapshot cannot estimate patient-level mutation clusters, subtype-adjusted rates, treatment-stratified resistance, or DTG-era temporal associations. Network retrieval happens during the GitHub Actions build, not in the browser, which avoids CORS and reproducibility problems.
 
 ## Local quick start
 
