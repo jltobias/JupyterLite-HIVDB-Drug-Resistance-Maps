@@ -1,0 +1,1865 @@
+ref_id,domain,value,status,rule
+3119,study_design,Cohort,Unverified title cue,\bcohort\b
+2290,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2329,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2348,age_group,Adults,Unverified title cue,\badults?\b
+2348,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2348,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3272,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+3272,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3272,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+3272,study_design,Cross-sectional,Unverified title cue,cross[ -]sectional
+3272,study_design,Cohort,Unverified title cue,\bcohort\b
+3272,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+3283,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+2007,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2007,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+2470,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+3284,study_design,Cross-sectional,Unverified title cue,cross[ -]sectional
+2157,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2157,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1743,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1988,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+1971,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1971,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1253,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2489,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2631,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2631,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+968,age_group,Adults,Unverified title cue,\badults?\b
+968,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2714,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2863,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+1171,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2561,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+2237,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+3505,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+3505,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+3505,resistance_outcome,Acquired resistance,Unverified title cue,\bacquired\b
+2688,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2691,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2691,study_design,In vitro,Unverified title cue,\bin vitro\b
+2263,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2263,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+2262,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2262,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+2602,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+165,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+1128,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3437,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3168,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2522,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+969,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+969,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2113,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3243,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3243,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+3467,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+1721,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1321,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+1861,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2715,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+3343,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3343,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+3350,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3537,resistance_outcome,Acquired resistance,Unverified title cue,\bacquired\b
+3537,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+3537,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+3606,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2106,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+2106,study_design,Longitudinal,Unverified title cue,\blongitudinal\b
+2718,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+1682,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1682,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1675,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1773,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1863,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1863,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2134,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2923,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2923,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2029,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2029,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2581,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2581,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2934,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1742,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1742,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2875,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2875,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+2494,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1240,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1240,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1240,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+842,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+842,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+879,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+1211,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1754,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1754,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+3150,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1874,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+1874,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1256,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1256,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+1256,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+849,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+849,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+849,study_design,Cohort,Unverified title cue,\bcohort\b
+872,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+1594,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2535,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2877,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2877,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2330,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2822,resistance_outcome,Acquired resistance,Unverified title cue,\bacquired\b
+1978,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1076,age_group,Adults,Unverified title cue,\badults?\b
+2307,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+3477,drug_mention,LEN,Unverified title cue,\b(lenacapavir|LEN)\b
+1716,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1716,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1702,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+3141,age_group,Adults,Unverified title cue,\badults?\b
+3503,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+3039,clinical_outcome,Suppression,Unverified title cue,\bsuppress\w*\b
+2415,age_group,Adults,Unverified title cue,\badults?\b
+1025,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+1025,study_design,Randomized trial,Unverified title cue,\brandomi[sz]ed\b
+1485,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+3053,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+3053,study_design,Cohort,Unverified title cue,\bcohort\b
+3535,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+805,age_group,Adults,Unverified title cue,\badults?\b
+805,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+828,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+1730,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3048,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+3048,age_group,Adults,Unverified title cue,\badults?\b
+1411,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2518,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+3382,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3382,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3382,drug_mention,LEN,Unverified title cue,\b(lenacapavir|LEN)\b
+1178,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+1295,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1295,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2088,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2520,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2520,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2756,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2756,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2291,study_design,Cohort,Unverified title cue,\bcohort\b
+3254,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3254,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+3107,study_design,Randomized trial,Unverified title cue,\brandomi[sz]ed\b
+3107,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+2547,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+2547,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+1912,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1780,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+3130,clinical_outcome,Viremia,Unverified title cue,\bvira?emi\w*\b
+3130,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+3130,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+3295,study_design,In vitro,Unverified title cue,\bin vitro\b
+3251,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+3669,clinical_outcome,Suppression,Unverified title cue,\bsuppress\w*\b
+1542,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1078,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3056,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+3056,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3056,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+3056,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+3325,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1937,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1937,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+1937,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+2031,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+2031,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2031,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+1614,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+1658,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+3312,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2479,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2479,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+3267,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3267,study_design,In vitro,Unverified title cue,\bin vitro\b
+1587,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2141,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2270,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+1247,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+865,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+2245,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2245,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2245,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2306,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1956,age_group,Adults,Unverified title cue,\badults?\b
+1956,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+1750,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1184,age_group,Adults,Unverified title cue,\badults?\b
+1965,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+1965,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1650,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+3531,age_group,Adults,Unverified title cue,\badults?\b
+3531,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+3531,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3531,clinical_outcome,Suppression,Unverified title cue,\bsuppress\w*\b
+3531,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+3520,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3520,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+779,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+779,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+2626,age_group,Adults,Unverified title cue,\badults?\b
+2626,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+2626,study_design,Randomized trial,Unverified title cue,\brandomi[sz]ed\b
+2626,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+1667,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2092,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2092,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+1829,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+1829,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1703,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1703,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2635,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2635,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2635,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+2640,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2640,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+956,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+956,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+1648,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2068,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2068,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+1215,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1818,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+746,study_design,In vitro,Unverified title cue,\bin vitro\b
+1903,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+1903,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2639,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+2639,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2639,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+2505,study_design,Longitudinal,Unverified title cue,\blongitudinal\b
+2353,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2353,study_design,Longitudinal,Unverified title cue,\blongitudinal\b
+3589,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2729,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+1099,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1099,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+3328,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+3328,study_design,In vitro,Unverified title cue,\bin vitro\b
+2703,study_design,Cohort,Unverified title cue,\bcohort\b
+1696,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2525,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2525,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2568,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2568,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+1637,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2536,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2181,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+1977,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+1977,study_design,Cross-sectional,Unverified title cue,cross[ -]sectional
+1905,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+1777,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2482,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2540,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2882,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+2882,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3228,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2047,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2704,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2701,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2884,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2884,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2884,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2884,study_design,Cross-sectional,Unverified title cue,cross[ -]sectional
+2312,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2312,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+3055,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2452,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3040,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3065,resistance_outcome,Acquired resistance,Unverified title cue,\bacquired\b
+1691,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1783,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1783,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2258,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+3237,study_design,Randomized trial,Unverified title cue,\brandomi[sz]ed\b
+3204,study_design,Cohort,Unverified title cue,\bcohort\b
+1710,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2129,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+2195,age_group,Adults,Unverified title cue,\badults?\b
+2195,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2195,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2944,study_design,Randomized trial,Unverified title cue,\brandomi[sz]ed\b
+1611,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1611,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1686,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+2572,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2572,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1202,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3226,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+3226,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3226,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2086,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+2086,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+952,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+952,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1028,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+107,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3371,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+3557,study_design,Randomized trial,Unverified title cue,\brandomi[sz]ed\b
+2528,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2528,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3049,resistance_outcome,Acquired resistance,Unverified title cue,\bacquired\b
+1723,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3348,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3348,study_design,In vitro,Unverified title cue,\bin vitro\b
+3360,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3360,study_design,In vitro,Unverified title cue,\bin vitro\b
+3339,study_design,In vitro,Unverified title cue,\bin vitro\b
+2265,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+3624,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1796,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+1796,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3493,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+3493,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3493,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2016,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2350,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2323,age_group,Adults,Unverified title cue,\badults?\b
+2323,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2323,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1649,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2999,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+1969,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+1969,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3229,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+3229,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+861,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+861,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3050,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3245,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+3245,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1914,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1914,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1646,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+1646,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3096,age_group,Adults,Unverified title cue,\badults?\b
+3096,clinical_outcome,Suppression,Unverified title cue,\bsuppress\w*\b
+3096,study_design,Randomized trial,Unverified title cue,\brandomi[sz]ed\b
+3096,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+2896,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+2896,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2896,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+2896,study_design,Cohort,Unverified title cue,\bcohort\b
+3154,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+2352,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+935,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+935,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1602,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2213,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2213,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+1991,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1991,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+763,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+763,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2228,study_design,Randomized trial,Unverified title cue,\brandomi[sz]ed\b
+3389,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+2764,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2422,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2422,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2422,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1622,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3660,drug_mention,LEN,Unverified title cue,\b(lenacapavir|LEN)\b
+1243,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1751,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1751,study_design,In vitro,Unverified title cue,\bin vitro\b
+885,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1654,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+1972,resistance_outcome,Acquired resistance,Unverified title cue,\bacquired\b
+71,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+71,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+3478,drug_mention,LEN,Unverified title cue,\b(lenacapavir|LEN)\b
+1502,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1596,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3035,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2870,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+2870,study_design,In vitro,Unverified title cue,\bin vitro\b
+158,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+158,study_design,In vitro,Unverified title cue,\bin vitro\b
+2035,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2035,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2035,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2035,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1108,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1779,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+1929,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3488,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+3488,clinical_outcome,Suppression,Unverified title cue,\bsuppress\w*\b
+3488,resistance_outcome,Acquired resistance,Unverified title cue,\bacquired\b
+2465,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2976,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+2172,study_design,Cohort,Unverified title cue,\bcohort\b
+3410,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+3410,study_design,In vitro,Unverified title cue,\bin vitro\b
+3410,drug_mention,LEN,Unverified title cue,\b(lenacapavir|LEN)\b
+3250,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3250,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3250,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+3632,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2401,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2770,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+2770,study_design,In vitro,Unverified title cue,\bin vitro\b
+2770,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+1844,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1844,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2659,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2659,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2659,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3645,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+3645,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3645,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+1877,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1876,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2539,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2299,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2299,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1494,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1494,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+1492,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1492,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2562,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+2813,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1263,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+1968,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+410,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1033,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1033,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1033,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+1172,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1705,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+1705,age_group,Adults,Unverified title cue,\badults?\b
+1705,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1705,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+967,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+989,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2167,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3532,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+1902,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1902,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2024,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2024,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+1913,clinical_outcome,Viremia,Unverified title cue,\bvira?emi\w*\b
+1913,study_design,Cross-sectional,Unverified title cue,cross[ -]sectional
+3068,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3068,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+3246,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3508,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+3508,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2638,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+2638,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+1720,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1720,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2442,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+982,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+1146,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+1116,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1581,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1672,age_group,Adults,Unverified title cue,\badults?\b
+1672,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1672,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+2287,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3433,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2801,age_group,Adults,Unverified title cue,\badults?\b
+2801,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+808,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3231,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3231,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+3423,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2890,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2890,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2860,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2860,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2809,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2809,study_design,In vitro,Unverified title cue,\bin vitro\b
+2810,clinical_outcome,Suppression,Unverified title cue,\bsuppress\w*\b
+2527,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2527,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1953,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+1953,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1835,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+1835,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1835,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2081,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+3316,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3319,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2891,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+113,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+113,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+909,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+909,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+909,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+2062,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+3463,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+3463,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3463,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+3051,study_design,Cohort,Unverified title cue,\bcohort\b
+2012,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+2012,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2012,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2325,age_group,Adults,Unverified title cue,\badults?\b
+3421,resistance_outcome,Acquired resistance,Unverified title cue,\bacquired\b
+3421,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+933,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2173,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3131,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+3131,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3131,resistance_outcome,Acquired resistance,Unverified title cue,\bacquired\b
+3131,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+1800,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+1692,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3235,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3235,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+3235,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+1250,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1726,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3033,study_design,Randomized trial,Unverified title cue,\brandomi[sz]ed\b
+3273,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+3293,study_design,In vitro,Unverified title cue,\bin vitro\b
+3302,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3179,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+3311,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+3314,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3318,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3318,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+3318,study_design,In vitro,Unverified title cue,\bin vitro\b
+3088,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+1747,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+2849,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2008,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2781,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+1768,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2087,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3504,age_group,Adults,Unverified title cue,\badults?\b
+2622,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+2622,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2622,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+2622,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+1987,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+3438,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3530,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2543,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2543,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2543,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+3414,study_design,In vitro,Unverified title cue,\bin vitro\b
+3387,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+3387,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+3521,study_design,In vitro,Unverified title cue,\bin vitro\b
+2424,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+2424,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3373,study_design,In vitro,Unverified title cue,\bin vitro\b
+1249,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+1249,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+3222,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+3255,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1653,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+1653,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1653,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+1643,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1643,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+1793,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1793,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+1793,study_design,In vitro,Unverified title cue,\bin vitro\b
+2786,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2786,resistance_outcome,Acquired resistance,Unverified title cue,\bacquired\b
+845,study_design,In vitro,Unverified title cue,\bin vitro\b
+870,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+870,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+1129,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1027,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+1027,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+951,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1774,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2665,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+3018,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2946,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+2946,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3232,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+3232,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2510,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+2510,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+2511,age_group,Adults,Unverified title cue,\badults?\b
+1933,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1970,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+1970,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2414,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2414,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2414,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1127,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1728,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+3290,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3296,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3019,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2238,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+2238,age_group,Adults,Unverified title cue,\badults?\b
+2238,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1850,study_design,Cohort,Unverified title cue,\bcohort\b
+2260,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2260,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1995,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1995,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+3448,study_design,Randomized trial,Unverified title cue,\brandomi[sz]ed\b
+3448,drug_mention,LEN,Unverified title cue,\b(lenacapavir|LEN)\b
+3061,age_group,Adults,Unverified title cue,\badults?\b
+3061,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3061,study_design,Cohort,Unverified title cue,\bcohort\b
+2599,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2576,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+3064,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2004,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2004,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+2131,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2131,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+1797,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1973,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+3612,study_design,Cohort,Unverified title cue,\bcohort\b
+2023,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+1837,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+1837,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1506,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1506,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1506,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2111,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+990,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+990,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+990,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+1083,age_group,Adults,Unverified title cue,\badults?\b
+1083,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1083,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3524,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+3524,drug_mention,LEN,Unverified title cue,\b(lenacapavir|LEN)\b
+2544,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2544,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2214,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+1064,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+1031,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1044,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2005,age_group,Adults,Unverified title cue,\badults?\b
+2005,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2005,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2217,age_group,Adults,Unverified title cue,\badults?\b
+2217,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+2217,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2217,resistance_outcome,Acquired resistance,Unverified title cue,\bacquired\b
+2217,study_design,Cross-sectional,Unverified title cue,cross[ -]sectional
+2705,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2977,study_design,Longitudinal,Unverified title cue,\blongitudinal\b
+1781,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2155,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2495,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2495,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2919,age_group,Adults,Unverified title cue,\badults?\b
+2919,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2919,study_design,Cohort,Unverified title cue,\bcohort\b
+1834,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1834,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3098,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3098,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+3256,age_group,Adults,Unverified title cue,\badults?\b
+3256,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2716,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2716,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+810,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3559,study_design,Cohort,Unverified title cue,\bcohort\b
+3527,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3109,clinical_outcome,Suppression,Unverified title cue,\bsuppress\w*\b
+3109,study_design,Randomized trial,Unverified title cue,\brandomi[sz]ed\b
+3109,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+1911,clinical_outcome,Viremia,Unverified title cue,\bvira?emi\w*\b
+2170,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+886,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+964,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+1155,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+1155,study_design,In vitro,Unverified title cue,\bin vitro\b
+2076,age_group,Adults,Unverified title cue,\badults?\b
+2076,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1610,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1685,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+1290,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1290,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2416,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2416,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+848,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+825,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+840,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+2744,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2744,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2145,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2272,age_group,Adults,Unverified title cue,\badults?\b
+2272,clinical_outcome,Suppression,Unverified title cue,\bsuppress\w*\b
+3646,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+3646,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2232,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2232,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2732,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1674,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1612,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+2149,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2149,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2897,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3041,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3041,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+3351,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2319,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+2319,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2319,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+3649,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+3649,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2706,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2706,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2706,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1788,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1788,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1671,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1671,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3490,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3490,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+858,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1687,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1687,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2723,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2115,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2115,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2349,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2349,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+2349,study_design,Cohort,Unverified title cue,\bcohort\b
+2690,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2498,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+2339,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2339,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1739,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+1739,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+3063,study_design,In vitro,Unverified title cue,\bin vitro\b
+2664,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+2664,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2652,study_design,Randomized trial,Unverified title cue,\brandomi[sz]ed\b
+2836,study_design,Cross-sectional,Unverified title cue,cross[ -]sectional
+2338,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2310,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+3052,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+3052,study_design,Randomized trial,Unverified title cue,\brandomi[sz]ed\b
+1029,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1029,study_design,In vitro,Unverified title cue,\bin vitro\b
+1168,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2768,clinical_outcome,Suppression,Unverified title cue,\bsuppress\w*\b
+1497,study_design,In vitro,Unverified title cue,\bin vitro\b
+3381,study_design,In vitro,Unverified title cue,\bin vitro\b
+2044,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+852,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+1101,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1101,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+3384,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+1237,study_design,Cohort,Unverified title cue,\bcohort\b
+1752,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1950,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1950,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+3223,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+3223,age_group,Adults,Unverified title cue,\badults?\b
+3223,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1967,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1715,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1715,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2478,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2478,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2478,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+997,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+944,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3586,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2869,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2491,age_group,Adults,Unverified title cue,\badults?\b
+2434,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2434,study_design,Cross-sectional,Unverified title cue,cross[ -]sectional
+2548,study_design,Cross-sectional,Unverified title cue,cross[ -]sectional
+2679,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+1990,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+1990,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+3496,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+3496,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3496,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1496,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+3274,clinical_outcome,Suppression,Unverified title cue,\bsuppress\w*\b
+3274,clinical_outcome,Viremia,Unverified title cue,\bvira?emi\w*\b
+3274,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+2176,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+2176,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2176,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2456,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+3667,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+3281,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+738,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3457,drug_mention,LEN,Unverified title cue,\b(lenacapavir|LEN)\b
+906,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+3304,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2215,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3003,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3270,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+3270,clinical_outcome,Suppression,Unverified title cue,\bsuppress\w*\b
+2127,study_design,Cohort,Unverified title cue,\bcohort\b
+862,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2084,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2094,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2471,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2471,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1539,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+3385,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+3385,clinical_outcome,Viremia,Unverified title cue,\bvira?emi\w*\b
+3385,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+1179,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2144,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2144,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2964,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+3233,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+3072,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2984,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+3089,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+3089,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3670,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+3670,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2577,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+2578,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+2578,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2578,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2449,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2449,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+1758,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1799,study_design,In vitro,Unverified title cue,\bin vitro\b
+2800,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+1276,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1276,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1276,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+2427,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2187,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1100,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1100,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2564,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2148,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2148,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2490,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2490,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2839,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+2839,age_group,Adults,Unverified title cue,\badults?\b
+2839,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2839,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+2936,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+2936,age_group,Adults,Unverified title cue,\badults?\b
+2936,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+1424,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2180,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+1660,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2102,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1679,age_group,Adults,Unverified title cue,\badults?\b
+3042,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2734,resistance_outcome,Acquired resistance,Unverified title cue,\bacquired\b
+1961,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2532,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+2532,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2532,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+1123,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1504,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+1504,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1504,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+3219,study_design,In vitro,Unverified title cue,\bin vitro\b
+520,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3143,study_design,Randomized trial,Unverified title cue,\brandomi[sz]ed\b
+2628,study_design,In vitro,Unverified title cue,\bin vitro\b
+2629,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1647,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2406,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+1082,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3458,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+3257,age_group,Adults,Unverified title cue,\badults?\b
+730,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+730,clinical_outcome,Suppression,Unverified title cue,\bsuppress\w*\b
+524,study_design,In vitro,Unverified title cue,\bin vitro\b
+768,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1523,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2501,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1813,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1992,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3494,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2720,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1712,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2027,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2194,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2194,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2814,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2814,study_design,Randomized trial,Unverified title cue,\brandomi[sz]ed\b
+2371,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+2627,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+2411,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2411,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+3335,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2128,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2128,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2125,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2049,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2677,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2677,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1936,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+3428,study_design,Cohort,Unverified title cue,\bcohort\b
+3544,clinical_outcome,Viremia,Unverified title cue,\bvira?emi\w*\b
+3004,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2504,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+3650,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+3211,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2425,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+2503,study_design,Cross-sectional,Unverified title cue,cross[ -]sectional
+1769,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3258,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3258,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+3258,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+3533,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1635,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1591,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1591,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2753,study_design,Randomized trial,Unverified title cue,\brandomi[sz]ed\b
+3461,study_design,Cohort,Unverified title cue,\bcohort\b
+3461,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+3529,clinical_outcome,Viremia,Unverified title cue,\bvira?emi\w*\b
+3529,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+2233,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2233,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1763,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+2249,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2407,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+2407,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+3541,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2634,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2634,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+2013,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2133,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2133,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2357,study_design,Longitudinal,Unverified title cue,\blongitudinal\b
+2762,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+3538,age_group,Adults,Unverified title cue,\badults?\b
+3538,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+3538,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+1681,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+3550,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1508,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+1508,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1508,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+1238,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1590,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3462,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+3462,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+3462,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1164,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+1157,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+2028,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2702,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2702,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2702,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2702,study_design,Cohort,Unverified title cue,\bcohort\b
+3352,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+869,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+869,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+3023,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+3023,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+1288,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1288,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1757,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1757,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3012,age_group,Adults,Unverified title cue,\badults?\b
+3012,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3012,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+1513,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+3602,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+2100,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2610,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+2604,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2604,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+3269,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+3269,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+1118,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1341,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+2752,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2752,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2752,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2216,age_group,Adults,Unverified title cue,\badults?\b
+2216,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2216,resistance_outcome,Acquired resistance,Unverified title cue,\bacquired\b
+3195,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+3195,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+3195,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+2926,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+1798,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2802,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1603,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+1603,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3288,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3455,drug_mention,LEN,Unverified title cue,\b(lenacapavir|LEN)\b
+953,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+1993,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+3324,study_design,In vitro,Unverified title cue,\bin vitro\b
+2398,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+2001,study_design,In vitro,Unverified title cue,\bin vitro\b
+3361,study_design,In vitro,Unverified title cue,\bin vitro\b
+2853,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2853,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3476,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+3476,drug_mention,LEN,Unverified title cue,\b(lenacapavir|LEN)\b
+2956,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+2956,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2829,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1589,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+2986,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2986,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3656,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+3656,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3090,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+3090,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2121,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2121,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2121,study_design,Cohort,Unverified title cue,\bcohort\b
+2947,resistance_outcome,Acquired resistance,Unverified title cue,\bacquired\b
+1072,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1072,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2692,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+2692,study_design,In vitro,Unverified title cue,\bin vitro\b
+2920,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2569,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2569,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2569,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3434,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1954,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3057,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+3057,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3057,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2834,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2965,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2430,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+2430,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2862,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2862,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2862,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+2842,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+2286,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+1997,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1997,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+3291,study_design,In vitro,Unverified title cue,\bin vitro\b
+555,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+555,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+2309,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2309,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2309,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2641,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2900,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3105,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3105,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+3105,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+3240,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3240,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2099,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+2267,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+2958,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1036,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+817,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+2717,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+1688,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1688,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+1986,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1986,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1986,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2728,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1805,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3315,study_design,In vitro,Unverified title cue,\bin vitro\b
+1210,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1210,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+1035,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2765,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+2765,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2765,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3426,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3426,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+3426,resistance_outcome,Acquired resistance,Unverified title cue,\bacquired\b
+2226,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+2226,study_design,Randomized trial,Unverified title cue,\brandomi[sz]ed\b
+141,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2130,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3200,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2097,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2097,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1093,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1092,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+1125,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3665,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3665,drug_mention,LEN,Unverified title cue,\b(lenacapavir|LEN)\b
+2843,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3091,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+3091,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1864,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+1864,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1864,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2903,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+2903,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2903,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2903,study_design,Cross-sectional,Unverified title cue,cross[ -]sectional
+2333,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2244,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1920,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2253,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2253,study_design,Cohort,Unverified title cue,\bcohort\b
+1130,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1130,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+3362,study_design,In vitro,Unverified title cue,\bin vitro\b
+3674,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+3674,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2334,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2138,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2613,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2613,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2613,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+2798,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2798,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2042,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2042,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1148,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1241,age_group,Adults,Unverified title cue,\badults?\b
+2758,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2758,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2987,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2987,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2987,resistance_outcome,Acquired resistance,Unverified title cue,\bacquired\b
+2637,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+3442,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3525,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+3525,study_design,In vitro,Unverified title cue,\bin vitro\b
+3525,drug_mention,LEN,Unverified title cue,\b(lenacapavir|LEN)\b
+3672,study_design,Cross-sectional,Unverified title cue,cross[ -]sectional
+2892,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+2892,study_design,Cross-sectional,Unverified title cue,cross[ -]sectional
+2550,study_design,Longitudinal,Unverified title cue,\blongitudinal\b
+983,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2050,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2050,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2476,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2476,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2331,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2331,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2595,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2595,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+3013,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3013,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3013,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+3037,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3037,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+1632,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1586,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1812,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+1812,study_design,Randomized trial,Unverified title cue,\brandomi[sz]ed\b
+1906,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1857,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2782,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2905,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2472,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2387,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2178,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2827,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2827,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2827,study_design,Cohort,Unverified title cue,\bcohort\b
+1994,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2719,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2597,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2597,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2162,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+2555,age_group,Adults,Unverified title cue,\badults?\b
+2555,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+1663,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+1663,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2182,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2182,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+1537,age_group,Adults,Unverified title cue,\badults?\b
+1537,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2793,clinical_outcome,Suppression,Unverified title cue,\bsuppress\w*\b
+3259,age_group,Adults,Unverified title cue,\badults?\b
+3259,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1982,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1982,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1982,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+1775,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1775,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1775,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+1776,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+1776,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1776,study_design,Cohort,Unverified title cue,\bcohort\b
+1495,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+1588,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+1588,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3271,age_group,Adults,Unverified title cue,\badults?\b
+3271,study_design,Cohort,Unverified title cue,\bcohort\b
+3271,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+3353,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3353,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+3353,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+3397,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3397,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+3397,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+3363,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3363,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+3363,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+2623,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+2828,clinical_outcome,Suppression,Unverified title cue,\bsuppress\w*\b
+2828,resistance_outcome,Acquired resistance,Unverified title cue,\bacquired\b
+2142,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2142,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2945,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2302,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2302,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2302,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2302,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+3058,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3058,clinical_outcome,Suppression,Unverified title cue,\bsuppress\w*\b
+2451,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2451,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+819,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+819,age_group,Adults,Unverified title cue,\badults?\b
+3664,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+3664,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3084,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+3282,age_group,Adults,Unverified title cue,\badults?\b
+735,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+735,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3534,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1760,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1760,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2937,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2937,resistance_outcome,Acquired resistance,Unverified title cue,\bacquired\b
+2937,study_design,Cross-sectional,Unverified title cue,cross[ -]sectional
+2937,study_design,Cohort,Unverified title cue,\bcohort\b
+3025,age_group,Adults,Unverified title cue,\badults?\b
+3025,study_design,Randomized trial,Unverified title cue,\brandomi[sz]ed\b
+1738,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1738,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+1607,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1607,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+3265,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+2667,age_group,Adults,Unverified title cue,\badults?\b
+898,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+1235,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2311,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2311,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1627,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1985,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+1985,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+1985,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1226,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1226,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2183,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+1924,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2043,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2235,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2235,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1984,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2906,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+2906,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2063,clinical_outcome,Suppression,Unverified title cue,\bsuppress\w*\b
+2063,clinical_outcome,Viremia,Unverified title cue,\bvira?emi\w*\b
+1095,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+965,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+965,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+857,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+857,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+857,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+864,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+864,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+1054,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1054,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+1054,clinical_outcome,Suppression,Unverified title cue,\bsuppress\w*\b
+1054,study_design,In vitro,Unverified title cue,\bin vitro\b
+998,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+1259,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2341,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+751,study_design,In vitro,Unverified title cue,\bin vitro\b
+1778,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3124,study_design,Randomized trial,Unverified title cue,\brandomi[sz]ed\b
+3124,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+792,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+792,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+2632,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2632,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+3547,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3547,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+3547,drug_mention,LEN,Unverified title cue,\b(lenacapavir|LEN)\b
+3416,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2908,age_group,Adults,Unverified title cue,\badults?\b
+955,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2978,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+1117,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1117,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+1232,age_group,Adults,Unverified title cue,\badults?\b
+1232,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+3189,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3189,study_design,Cohort,Unverified title cue,\bcohort\b
+1268,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1268,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1268,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+807,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+2609,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+3238,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3238,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+3238,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+2308,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2308,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1784,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1784,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2513,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+2513,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2513,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+1114,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+995,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2910,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+2910,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2910,study_design,Cohort,Unverified title cue,\bcohort\b
+1697,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1651,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+1651,age_group,Adults,Unverified title cue,\badults?\b
+1651,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3354,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1097,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1097,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1097,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+3427,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3427,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1983,study_design,Randomized trial,Unverified title cue,\brandomi[sz]ed\b
+1183,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+1803,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2117,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2394,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1664,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1664,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+1664,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+1620,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+2017,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+3135,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+2594,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2594,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2147,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+2147,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2147,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+948,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+2742,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3092,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+3092,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2608,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2608,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+3552,drug_mention,LEN,Unverified title cue,\b(lenacapavir|LEN)\b
+1791,study_design,Longitudinal,Unverified title cue,\blongitudinal\b
+3075,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1821,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1821,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3460,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+3460,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+3460,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1880,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3499,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3347,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+2512,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+3658,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3658,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+2160,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2160,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+1271,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2912,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3502,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+2103,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1604,study_design,In vitro,Unverified title cue,\bin vitro\b
+3275,clinical_outcome,Suppression,Unverified title cue,\bsuppress\w*\b
+3275,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+3275,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+1195,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1885,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2011,age_group,Adults,Unverified title cue,\badults?\b
+2011,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+2011,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2455,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1153,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1167,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1790,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2771,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2537,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2537,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2772,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+3116,study_design,Cohort,Unverified title cue,\bcohort\b
+3117,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3117,resistance_outcome,Acquired resistance,Unverified title cue,\bacquired\b
+3118,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1112,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+3122,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3556,study_design,Randomized trial,Unverified title cue,\brandomi[sz]ed\b
+815,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+815,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+1228,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+1228,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2391,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2393,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+979,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+979,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+1248,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1248,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+1024,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3630,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+3641,age_group,Adults,Unverified title cue,\badults?\b
+1258,age_group,Adults,Unverified title cue,\badults?\b
+1258,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1039,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+975,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+1265,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1265,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+2261,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+2261,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2261,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+860,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+860,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3671,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+3671,age_group,Adults,Unverified title cue,\badults?\b
+3100,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+2648,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2340,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2340,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2689,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2689,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+3285,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+1070,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2575,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2483,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1540,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+3190,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+2915,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2915,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2619,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+2619,study_design,In vitro,Unverified title cue,\bin vitro\b
+2619,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+2859,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2859,study_design,In vitro,Unverified title cue,\bin vitro\b
+2815,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2815,study_design,In vitro,Unverified title cue,\bin vitro\b
+3286,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+3522,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3104,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2347,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2928,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+2928,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3043,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+2939,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+1320,study_design,Cohort,Unverified title cue,\bcohort\b
+3513,age_group,Adults,Unverified title cue,\badults?\b
+3513,study_design,Cohort,Unverified title cue,\bcohort\b
+3014,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+3014,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+3014,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2055,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+3036,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2583,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2436,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+2436,age_group,Adults,Unverified title cue,\badults?\b
+2045,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2045,study_design,In vitro,Unverified title cue,\bin vitro\b
+2227,study_design,Randomized trial,Unverified title cue,\brandomi[sz]ed\b
+3417,study_design,In vitro,Unverified title cue,\bin vitro\b
+2789,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2789,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+68,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3125,clinical_outcome,Suppression,Unverified title cue,\bsuppress\w*\b
+3125,study_design,Cohort,Unverified title cue,\bcohort\b
+3125,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+3234,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+3234,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3234,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+3234,study_design,Cross-sectional,Unverified title cue,cross[ -]sectional
+3045,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+2636,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+2636,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+2633,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+2633,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2633,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2633,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+3076,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+3076,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3076,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3540,age_group,Adults,Unverified title cue,\badults?\b
+3540,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+3046,resistance_outcome,Acquired resistance,Unverified title cue,\bacquired\b
+3046,study_design,Cohort,Unverified title cue,\bcohort\b
+2618,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2618,study_design,In vitro,Unverified title cue,\bin vitro\b
+2618,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+2070,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+3077,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3077,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+1584,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+1584,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1584,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+3595,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+3595,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+3595,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1964,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+880,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+880,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+1111,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2243,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2243,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+823,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+1515,age_group,Adults,Unverified title cue,\badults?\b
+1515,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+144,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+69,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+168,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+168,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+173,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+3579,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+2642,study_design,In vitro,Unverified title cue,\bin vitro\b
+3225,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3386,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3145,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2474,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+3162,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+3472,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3472,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3546,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+3546,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+631,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+2675,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2675,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+756,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+1952,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1951,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1951,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2003,age_group,Adults,Unverified title cue,\badults?\b
+2003,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2003,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+3615,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3615,study_design,Cohort,Unverified title cue,\bcohort\b
+2159,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+2159,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2159,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2000,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2000,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2229,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2229,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2229,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2698,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2698,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+2695,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2699,study_design,In vitro,Unverified title cue,\bin vitro\b
+2699,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+3106,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3106,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+2438,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2438,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2438,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+930,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+1801,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2873,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2873,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2151,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1641,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+3517,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2038,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2778,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+1570,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+1570,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2036,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2036,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2067,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2067,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2010,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2010,study_design,Cohort,Unverified title cue,\bcohort\b
+2940,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2940,clinical_outcome,Suppression,Unverified title cue,\bsuppress\w*\b
+2940,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2940,study_design,Cross-sectional,Unverified title cue,cross[ -]sectional
+640,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2191,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+2191,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2588,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2405,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2864,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2864,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+3261,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+3261,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3261,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+2212,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+3216,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3216,study_design,Cross-sectional,Unverified title cue,cross[ -]sectional
+3216,study_design,Cohort,Unverified title cue,\bcohort\b
+3317,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3317,study_design,In vitro,Unverified title cue,\bin vitro\b
+1519,study_design,In vitro,Unverified title cue,\bin vitro\b
+1945,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1945,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2423,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3571,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2140,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2399,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+1061,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+2553,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3399,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2785,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1636,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+3430,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+3430,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3430,resistance_outcome,Acquired resistance,Unverified title cue,\bacquired\b
+2676,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+2676,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3110,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+2473,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+2682,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+1957,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1957,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+3418,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3418,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+2721,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2721,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2755,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2755,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+722,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+3481,study_design,Cohort,Unverified title cue,\bcohort\b
+3642,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3028,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3028,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+3543,age_group,Adults,Unverified title cue,\badults?\b
+3543,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2852,clinical_outcome,Suppression,Unverified title cue,\bsuppress\w*\b
+2852,resistance_outcome,Acquired resistance,Unverified title cue,\bacquired\b
+2670,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+1706,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1209,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+1480,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+1480,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1480,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2671,study_design,Cohort,Unverified title cue,\bcohort\b
+2845,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2845,study_design,Cohort,Unverified title cue,\bcohort\b
+2069,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2069,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+3565,age_group,Adults,Unverified title cue,\badults?\b
+3565,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3565,study_design,Cohort,Unverified title cue,\bcohort\b
+2930,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2459,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2189,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2188,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2931,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2931,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2674,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2674,study_design,Randomized trial,Unverified title cue,\brandomi[sz]ed\b
+1814,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1917,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+649,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+649,study_design,In vitro,Unverified title cue,\bin vitro\b
+726,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1085,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1621,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+1621,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1491,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+1881,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+2071,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+3539,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+3539,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1999,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1999,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2040,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+2040,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2040,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1959,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+3194,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1934,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1287,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1287,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3133,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+3133,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+2409,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+2409,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2773,study_design,In vitro,Unverified title cue,\bin vitro\b
+2769,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2769,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1795,age_group,Adults,Unverified title cue,\badults?\b
+1795,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+3102,age_group,Adults,Unverified title cue,\badults?\b
+3102,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+2630,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+2630,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+2448,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2448,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+3307,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1842,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+1294,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2110,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+3197,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+891,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3126,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+2301,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3289,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3029,clinical_outcome,Suppression,Unverified title cue,\bsuppress\w*\b
+3029,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3029,study_design,Randomized trial,Unverified title cue,\brandomi[sz]ed\b
+3029,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+1932,age_group,Adults,Unverified title cue,\badults?\b
+1932,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+1722,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1722,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2868,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1963,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2621,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2621,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+2601,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+3113,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+3113,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+3113,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+2541,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+3207,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+1593,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1593,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3607,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+2231,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+764,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+806,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1601,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+853,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+853,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1709,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1278,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1278,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+1278,study_design,In vitro,Unverified title cue,\bin vitro\b
+1273,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1273,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1487,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+1487,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+1510,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1091,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+1251,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1482,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2724,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+2724,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3060,clinical_outcome,Suppression,Unverified title cue,\bsuppress\w*\b
+1518,study_design,In vitro,Unverified title cue,\bin vitro\b
+1645,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1718,study_design,Randomized trial,Unverified title cue,\brandomi[sz]ed\b
+1316,study_design,Cohort,Unverified title cue,\bcohort\b
+2663,age_group,Adults,Unverified title cue,\badults?\b
+1644,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+2015,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2015,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+3604,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2582,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1065,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+1065,study_design,In vitro,Unverified title cue,\bin vitro\b
+2477,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2477,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+1748,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2242,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2242,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+2242,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3657,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2441,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2673,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2673,study_design,Cross-sectional,Unverified title cue,cross[ -]sectional
+1947,study_design,Cohort,Unverified title cue,\bcohort\b
+2650,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2239,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2060,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2865,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2607,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3536,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3536,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+3087,age_group,Adults,Unverified title cue,\badults?\b
+1197,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3518,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+3653,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2321,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2321,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+3111,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3111,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+2711,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2711,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+3576,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+3576,study_design,In vitro,Unverified title cue,\bin vitro\b
+3303,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+67,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+1042,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+3456,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3456,drug_mention,LEN,Unverified title cue,\b(lenacapavir|LEN)\b
+1753,study_design,Cohort,Unverified title cue,\bcohort\b
+3346,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3346,study_design,In vitro,Unverified title cue,\bin vitro\b
+3357,study_design,In vitro,Unverified title cue,\bin vitro\b
+2942,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2942,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+3500,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+960,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3391,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3392,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3404,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3393,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3393,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+2354,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2354,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+2722,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2722,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2672,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2672,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+55,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1966,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1998,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2279,study_design,Cohort,Unverified title cue,\bcohort\b
+3103,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3103,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2467,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1713,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2962,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+1974,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1974,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1974,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+3047,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1772,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2600,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3374,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+1981,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+1981,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+3466,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+3095,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+913,study_design,In vitro,Unverified title cue,\bin vitro\b
+2516,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2516,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+2413,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2413,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+1274,outcome_topic,Susceptibility,Unverified title cue,\bsusceptibil\w*\b
+3610,age_group,Children / adolescents,Unverified title cue,\b(child\w*|pa?ediatric|adolescen\w*|infant\w*|youth\w*)\b
+3610,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+2104,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+1975,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2135,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2135,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2921,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2967,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+3264,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+1755,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+2246,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+3441,outcome_topic,Prevalence,Unverified title cue,\bprevalence\b
+2616,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+3405,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+155,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2206,resistance_outcome,Emergent resistance,Unverified title cue,\bemergen\w*\b
+2968,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2968,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+2230,art_status,ART naive,Unverified title cue,(?:antiretroviral|art|treatment|drug)[ -](?:na[iï]ve|untreated)
+2230,resistance_outcome,Transmitted resistance,Unverified title cue,\btransmitted\b
+3523,art_status,ART experienced,Unverified title cue,(?:antiretroviral|art|treatment)[ -](?:experienced|treated)|heavily treated
+3523,study_design,Cohort,Unverified title cue,\bcohort\b
+3523,drug_mention,DTG,Unverified title cue,\b(dolutegravir|DTG)\b
+2475,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+813,outcome_topic,Mutation,Unverified title cue,\bmutation\w*\b
+813,study_design,In vitro,Unverified title cue,\bin vitro\b
+1867,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b
+1867,study_design,Cohort,Unverified title cue,\bcohort\b
+755,clinical_outcome,Treatment failure,Unverified title cue,\bfail(?:ure|ing|ed)\b

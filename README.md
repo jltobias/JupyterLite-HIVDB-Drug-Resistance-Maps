@@ -14,11 +14,11 @@
 | **3D Scenes** | [Three.js](https://threejs.org/docs/) · [deck.gl scene graphs](https://deck.gl/docs/api-reference/layers/scenegraph-layer) · [Stanford molecular structures](https://hivdb.stanford.edu/pages/3DStructures/rt.html) |
 | **Other resources** | [Mapping resource guide](content/mapping_resources.md) · [HIVDB](https://hivdb.stanford.edu/) · [WHO HIVDR report](https://www.who.int/publications/i/item/9789240086319) · [Natural Earth](https://www.naturalearthdata.com/) · [JupyterLite documentation](https://jupyterlite.readthedocs.io/en/stable/) |
 
-The repository implements 2D surveillance maps. The 3D map, globe, and scene links are external learning resources, not additional HIVDR analyses or bundled content. Their services, imagery, models, and example datasets have separate terms.
+The repository implements 2D surveillance and study-evidence maps plus an interactive evidence globe. Open the [study atlas and globe](https://jltobias.github.io/JupyterLite-HIVDB-Drug-Resistance-Maps/lab/index.html?path=11_study_evidence_atlas.ipynb), [country study matrix](https://jltobias.github.io/JupyterLite-HIVDB-Drug-Resistance-Maps/lab/index.html?path=10_country_study_matrix.ipynb), or [Africa Meta Analysis](https://jltobias.github.io/JupyterLite-HIVDB-Drug-Resistance-Maps/lab/index.html?path=12_Meta_Analysis.ipynb). Other 3D map and scene links are external resources with their own terms.
 
 ## About this repository
 
-The book and Lab are published together by the GitHub Pages workflow. The book link becomes available after the first successful deployment containing the book configuration. The splash is original AI-generated artwork; its markers, bars, and molecular motif are conceptual, not measured data.
+The book and Lab are published together by the GitHub Pages workflow. The splash is original AI-generated artwork; its markers, bars, and molecular motif are conceptual, not measured data.
 
 Browser-based, reproducible examples for learning the fundamentals of **HIV drug resistance (HIVDR)** and mapping **transmitted HIV drug resistance (TDR)** using public data associated with the Stanford HIV Drug Resistance Database (HIVDB).
 
@@ -75,6 +75,32 @@ The `content/` directory contains:
 
 Notebook 00 is primarily narrative and visual. Notebooks 01–03 read static CSV files packaged into JupyterLite. Notebook 04 is a self-contained educational case study with synthetic genotype profiles and presentation-derived aggregate examples. Notebooks 05–08 are deliberately conditional templates: the 2015 aggregate snapshot cannot estimate patient-level mutation clusters, subtype-adjusted rates, treatment-stratified resistance, or DTG-era temporal associations. Network retrieval happens during the GitHub Actions build, not in the browser, which avoids CORS and reproducibility problems.
 
+## New study matrix and Africa synthesis notebooks
+
+| Notebook | Purpose | Live link |
+|---|---|---|
+| **09 — Study queries and provenance** | Shows the actual Python calls, pagination, sampling-metadata joins, hashes and source versions | [Open in Lab](https://jltobias.github.io/JupyterLite-HIVDB-Drug-Resistance-Maps/lab/index.html?path=09_study_queries_and_provenance.ipynb) |
+| **10 — Country study matrix** | Builds and exports country-by-domain/category tables with reference-level drill-down | [Open in Lab](https://jltobias.github.io/JupyterLite-HIVDB-Drug-Resistance-Maps/lab/index.html?path=10_country_study_matrix.ipynb) |
+| **11 — Study evidence atlas** | Adds 2D maps, a rotating globe, drug-query maps, year heatmap and domain-completeness graphics | [Open in Lab](https://jltobias.github.io/JupyterLite-HIVDB-Drug-Resistance-Maps/lab/index.html?path=11_study_evidence_atlas.ipynb) |
+| **12 — Meta Analysis** | Explores the African matrix, generates research questions and performs a conditional historical TDR synthesis | [Open in Lab](https://jltobias.github.io/JupyterLite-HIVDB-Drug-Resistance-Maps/lab/index.html?path=12_Meta_Analysis.ipynb) |
+
+All four also appear as matching chapters in the [Jupyter Book](https://jltobias.github.io/JupyterLite-HIVDB-Drug-Resistance-Maps/book/). Each begins with the original splash image.
+
+The November 16, 2026 metadata snapshot contains **2,282 publication records**, with sampling evidence for **1,507 references across 143 countries/areas**. It combines the public reference index, GenoRx PR/RT/IN downloads, phenotype-reference metadata and explicit live DTG/LEN queries. Those queries returned **87 DTG references and 7 LEN references**, using HIVDB API 0.1.18 / database 2026-11-11T17:52:51. This is selected-source coverage, not every HIVDB table. Historical downloads and live queries have different update schedules.
+
+The matrix covers age/baseline ART status, geography, primary outcome, drug exposure, clinical outcomes, collection year, resistance outcomes and design. Missing domains remain explicit. Nine source-checked publication examples demonstrate clinical classification; a separate, clearly labelled title-cue matrix supports screening. A RefID is a publication record, not necessarily an independent cohort. Counts describe evidence availability, not resistance prevalence.
+
+**Meta Analysis** pools the user-selected outcome, overall TDR in ART-naive populations, from the harmonized 2015 source. Its **conditional** subset comprises **71 single-country studies, 28 African countries and 6,144 reported participants**, sampled in 1994–2011. Overall event counts are reconstructed only when uniquely compatible with the rounded percentage, reported denominator and mutation-count bounds. Sixteen African rows have inconsistent percentages/denominators; ten multicountry rows lack country denominators and are excluded. Original overall numerators remain unverified, so this is an exploratory subset synthesis, not current national or continental prevalence. The notebook includes a forest plot, uncertainty and prediction intervals, Q/I²/τ², sensitivity analyses, influence checks, exclusion records and research questions. Cohort-overlap and risk-of-bias review remain necessary for formal use.
+
+Run All uses hash-checked factual snapshots and does not require browser access to Stanford. To reproduce or refresh the native retrieval:
+
+```bash
+python scripts/fetch_study_metadata.py --refresh
+python scripts/build_meta_inputs.py --refresh
+```
+
+The annotated implementations are [study_query.py](content/study_query.py), [study_matrix.py](content/study_matrix.py), [meta_analysis_tools.py](content/meta_analysis_tools.py) and [build_meta_inputs.py](scripts/build_meta_inputs.py). See [field definitions, source coverage and methods](content/study_matrix_methods.md). Raw responses remain in ignored caches; factual CSVs, provenance manifests and original classifications are versioned.
+
 ## Local quick start
 
 The full JupyterLite build also requires [micromamba](https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html) on `PATH`; the Pages workflow installs it automatically. Use Linux or WSL if Windows cannot extract the WebAssembly environment's Unix-style files. The book build runs with ordinary Python.
@@ -86,6 +112,7 @@ python -m pip install -r requirements-dev.txt
 python scripts/fetch_plos_2015.py --output-dir content/data
 pytest -q
 python scripts/build_book.py
+python scripts/validate_study_outputs.py
 jupyter lite build --contents content --output-dir dist
 python -c "import shutil; shutil.copytree('_build/html', 'dist/book', dirs_exist_ok=True)"
 python scripts/validate_site.py --site-dir dist
@@ -96,11 +123,11 @@ Then open `http://localhost:8000/lab/index.html` or `http://localhost:8000/book/
 
 ## Jupyter Book chapters
 
-The [Jupyter Book](https://jltobias.github.io/JupyterLite-HIVDB-Drug-Resistance-Maps/book/) uses the same nine `content/*.ipynb` files as the Lab, in the same order. Its table of contents groups Notebooks 00–04 as the learning sequence and Notebooks 05–08 as conditional templates, followed by mapping resources, provenance, methodology, the optional input schema, and this README. Every notebook's first Markdown cell contains the shared splash image and a direct link to open that notebook in the Lab.
+The [Jupyter Book](https://jltobias.github.io/JupyterLite-HIVDB-Drug-Resistance-Maps/book/) uses the same 13 `content/*.ipynb` files as the Lab, in the same order. Its table of contents groups Notebooks 00–04 as the learning sequence, 05–08 as conditional templates, and 09–12 as the study matrix and evidence-synthesis sequence, followed by sources, mapping resources, methodology, the optional input schema, and this README. Every notebook's first Markdown cell contains the shared splash image and a direct link to open that notebook in the Lab.
 
 The build uses **Jupyter Book 1.0.4.post1**, pinned in `requirements-book.txt` for the `_config.yml` / `_toc.yml` format. It executes the notebooks to publish their tables and figures, fails on execution errors, and does not execute the optional network-capture scripts. Build outputs stay in `_build/`; source notebooks remain unexecuted in version control.
 
-## Current HIVDB data: two supported paths
+## Current HIVDB surveillance-map data: two optional paths
 
 ### Preferred: use a documented machine-readable export
 
@@ -169,7 +196,13 @@ tests/                       transformation and aggregation tests
 
 This **CC0/public-domain** supporting table is the source of the build-generated study, study-country, coverage, and weighted-summary CSV files used in Notebooks 01–03. The article describes 287 studies, 50,870 people, and 111 countries. This project normalizes country identifiers and calculates descriptive sample-size-weighted percentages from eligible single-country studies; these transformations are not new nationally representative estimates. Cite the original studies listed in S1 Table when using their evidence. Retrieval time, source URL, parser mapping, and raw-file SHA-256 are recorded in `content/data/hivdb_2015_metadata.json` at build time. GenBank sequences underpin the published study; this repo does not download or redistribute those sequences.
 
-**Stanford University HIV Drug Resistance Database (HIVDB).** [Database](https://hivdb.stanford.edu/); [Transmitted Resistance Surveillance Map](https://hivdb.stanford.edu/page/surveillance-map/); [Sierra documentation](https://hivdb.stanford.edu/page/graphiql/). Credit Stanford HIVDB for the surveillance and interpretation resources. The live map is a separate resource; it is not the packaged 2015 snapshot. No current HIVDB export or Sierra result is bundled. Any future export needs its own source citation, retrieval/version record, and redistribution terms; the CC0 status of the PLOS table does not license the entire HIVDB site.
+**Stanford University HIV Drug Resistance Database (HIVDB).** [Database](https://hivdb.stanford.edu/); [Transmitted Resistance Surveillance Map](https://hivdb.stanford.edu/page/surveillance-map/); [Sierra documentation](https://hivdb.stanford.edu/page/graphiql/). Credit Stanford HIVDB and the contributing studies. Recommended database citation: **Rhee S-Y, Gonzales MJ, Kantor R, Betts BJ, Ravela J, Shafer RW. (2003).** *Human immunodeficiency virus reverse transcriptase and protease sequence database.* Nucleic Acids Research 31:298–303. [DOI](https://doi.org/10.1093/nar/gkg100); [Stanford citation guidance](https://hivdb.stanford.edu/pages/citation.html).
+
+Notebooks 09–12 use factual metadata from the [reference index](https://hivdb.stanford.edu/cgi-bin/Reference.cgi), [GenoRx downloads and definitions](https://hivdb.stanford.edu/pages/geno-rx-datasets.html), [genotype-phenotype reference export](https://hivdb.stanford.edu/pages/genopheno.dataset.html), [integrase query](https://hivdb.stanford.edu/HIVDB3/inhibitors-mutations/IN/) and [capsid query](https://hivdb.stanford.edu/HIVDB3/inhibitors-mutations/CA/). Dates, query filters, versions and SHA-256 values are in [the metadata manifest](content/data/studies/manifest.json). The live surveillance map remains a different resource; no Sierra interpretations are packaged. The PLOS CC0 dedication does not license the entire HIVDB site; see [HIVDB terms/FAQs](https://hivdb.stanford.edu/pages/FAQ/FAQ.html). Only factual metadata and original derived tables are included, without source article text, abstracts, sequences, figures, site artwork or logos.
+
+**Primary studies for the nine worked annotations:** [Cahn 2013 — SAILING](https://pubmed.ncbi.nlm.nih.gov/23830355/); [Gupta 2023 — CALIBRATE](https://pubmed.ncbi.nlm.nih.gov/36566079/); [Abdullahi 2023](https://pubmed.ncbi.nlm.nih.gov/37367727/); [Margot 2025 — CAPELLA](https://pubmed.ncbi.nlm.nih.gov/39873394/); [Turkova 2021 — ODYSSEY](https://pubmed.ncbi.nlm.nih.gov/34965338/); [Frange 2021](https://pubmed.ncbi.nlm.nih.gov/34369051/); [Charpentier 2011](https://pubmed.ncbi.nlm.nih.gov/21599597/); [Margot 2022 — study 4072](https://pubmed.ncbi.nlm.nih.gov/35028668/); [Kelley 2024 — PURPOSE 2](https://pubmed.ncbi.nlm.nih.gov/39602624/). The [annotation ledger](content/data/studies/annotations.csv) gives field-level citations and limitations. The single extraction was source-checked by Codex and has not been independently dual-reviewed. Other contributing studies remain traceable through their PMID and HIVDB reference links in the catalogue.
+
+**Africa geography and meta-analysis methods:** [UN Statistics Division M49](https://unstats.un.org/unsd/methodology/m49/) supplies factual country/area/subregion membership; the [source manifest](content/data/meta_analysis/source_manifest.json) records its retrieval and the CC0 S1 input. Cite [Viechtbauer (2010)](https://doi.org/10.18637/jss.v036.i03) for random/mixed-effects meta-analysis and [Röver, Knapp and Friede (2015)](https://doi.org/10.1186/s12874-015-0091-1) for modified Hartung–Knapp inference. The notebook also links [Cochrane synthesis guidance](https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-10), [missing-evidence guidance](https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-13), [PRISMA 2020](https://www.prisma-statement.org/prisma-2020) and [SciPy optimization documentation](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.minimize_scalar.html). These resources are linked; their figures and prose are not copied.
 
 **Lloyd S, Broyles L, Bacha J. (August 19, 2026).** *HIV Drug Resistance in MCH Populations.* MCH Office Hours, CDC/GHC/DGHT/HCTB. The existing Notebook 04 credits Spencer Lloyd, MPH, MD; Laura Broyles, MD; and Jason Bacha, MD for its presentation-derived pediatric CADRE aggregate values and MCH context. The presentation file and a verifiable public URL are **not included in this checkout**, so the transcription cannot be independently checked here. These values describe selected pediatric analysis populations, not national prevalence or Stanford surveillance estimates. No presentation slides, images, or logos are reproduced. Its rights status is not inferred from the presenters' affiliations. The fictional child profiles and denominator thought experiment are explicitly synthetic teaching examples, not patient records.
 

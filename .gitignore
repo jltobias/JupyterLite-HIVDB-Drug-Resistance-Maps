@@ -5,6 +5,7 @@ __pycache__/
 *.pyc
 dist/
 _build/
+content/outputs/
 captured_hivdb/
 content/data/*.xlsx
 content/data/*.xls

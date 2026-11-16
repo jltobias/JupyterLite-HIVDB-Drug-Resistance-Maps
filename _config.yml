@@ -3,6 +3,7 @@ author: James L. Tobias
 copyright: "2026"
 only_build_toc_files: true
 exclude_patterns:
+  - content/outputs/**
   - .venv/**
   - dist/**
   - _build/**
@@ -22,6 +23,10 @@ html:
   home_page_in_navbar: false
 sphinx:
   config:
+    # Load MathJax before inline Plotly scripts; deferred loading can race with
+    # Plotly's temporary MathJax configuration and leave equations unrendered.
+    mathjax_options:
+      defer: null
     # Execution happens in the Lab. Omit the unused Thebe/Binder integration.
     extensions:
       - sphinx_togglebutton

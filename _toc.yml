@@ -14,6 +14,13 @@ parts:
       - file: content/06_resistance_stratification
       - file: content/07_subtype_standardized_geography
       - file: content/08_nnrtI_to_dtg_geographic_history
+  - caption: Study matrix and evidence synthesis
+    chapters:
+      - file: content/09_study_queries_and_provenance
+      - file: content/10_country_study_matrix
+      - file: content/11_study_evidence_atlas
+      - file: content/12_Meta_Analysis
+      - file: content/study_matrix_methods
   - caption: Sources and resources
     chapters:
       - file: content/mapping_resources

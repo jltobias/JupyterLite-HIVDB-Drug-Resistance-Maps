@@ -49,3 +49,7 @@ Notebook 00 cites Stanford HIVDB interpretation notes, NIH ClinicalInfo's HIV li
 - `hivdb_2015_metadata.json` — retrieval/source metadata and parser diagnostics.
 
 Generated files preserve source values as much as possible while adding normalized ISO-3 codes and explicit analytic flags.
+
+## Study inventory and Africa synthesis additions
+
+Notebooks 09–12 add dated factual snapshots in `content/data/studies/` and `content/data/meta_analysis/`. These are separate from the older build-generated surveillance CSVs. The [source and field documentation](content/study_matrix_methods.md) describes every input, exact query scope, field limitations, source-checked annotations and conditional reconstructed meta-analysis counts. The manifests record retrieval times, versions, raw-response hashes and output hashes. Raw responses, article text, abstracts, sequences and third-party graphics are not redistributed.

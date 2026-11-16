@@ -25,3 +25,5 @@ jobs:
         run: python scripts/validate_site.py
       - name: Build all Jupyter Book chapters
         run: python scripts/build_book.py
+      - name: Validate study-matrix and meta-analysis exports
+        run: python scripts/validate_study_outputs.py

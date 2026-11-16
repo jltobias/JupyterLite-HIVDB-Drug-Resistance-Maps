@@ -1,0 +1,6 @@
+# These reproducibility inputs are hashed byte-for-byte on every platform.
+content/data/studies/*.csv text eol=lf
+content/data/meta_analysis/*.csv text eol=lf
+content/*.py text eol=lf
+content/*.ipynb text eol=lf
+scripts/build_meta_inputs.py text eol=lf

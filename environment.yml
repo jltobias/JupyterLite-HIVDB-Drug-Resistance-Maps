@@ -6,6 +6,7 @@ dependencies:
   - xeus-python
   - numpy
   - pandas
+  - scipy
   - matplotlib
   # Plotly <6.3 uses Natural Earth-only base geometry.
   - plotly=6.2.0

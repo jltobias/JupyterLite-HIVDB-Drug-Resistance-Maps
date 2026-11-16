@@ -6,3 +6,4 @@ pydata-sphinx-theme==0.15.4
 matplotlib>=3.9,<4
 # Keep the Natural Earth-only base geometry (see README attribution).
 plotly==6.2.0
+scipy>=1.14,<2

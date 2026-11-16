@@ -1,0 +1,47 @@
+{
+  "created_utc": "2026-11-16T21:51:17.952966+00:00",
+  "requests": [
+    {
+      "url": "https://unstats.un.org/unsd/methodology/m49/",
+      "method": "GET",
+      "body": null,
+      "form": false,
+      "retrieved_utc": "2026-11-16T21:50:22.610964+00:00",
+      "sha256": "4d5cabcb10ad9ef184553b5e64c0a34ba8deeb20dab2e02cd0be3599b93bb01d",
+      "bytes": 2051368,
+      "api_version": null,
+      "database_version": null,
+      "last_modified": null
+    },
+    {
+      "url": "https://journals.plos.org/plosmedicine/article/file?type=supplementary&id=info:doi/10.1371/journal.pmed.1001810.s004",
+      "method": "GET",
+      "body": null,
+      "form": false,
+      "retrieved_utc": "2026-11-16T21:50:24.092290+00:00",
+      "sha256": "fc812bd2ebeb85ecb092dc44ff8f7520844b6a795c84c05fafea16a4b45f5906",
+      "bytes": 221521,
+      "api_version": null,
+      "database_version": null,
+      "last_modified": "Wed, 28 Oct 2026 14:33:21 GMT"
+    }
+  ],
+  "script_sha256": "0841037401a0ff0d9680d6fdca6a06ba0273352cc50bda9f9516ac6b32acd546",
+  "outputs_sha256": {
+    "africa_country_areas.csv": "fb2dff7f5b2144e42c761a7ee7839ca37251cb97976a8bb3b65ff5a7568c693b",
+    "harmonized_studies.csv": "ff88b98810629d2f222584f77975ce58eaa86c4d96dedfa293567eb26e6e5207"
+  },
+  "counts": {
+    "Outside Africa / unresolved or mixed geography": 190,
+    "Included (conditional)": 71,
+    "Inconsistent denominator / percentage": 16,
+    "Multicountry: country denominators unavailable": 10
+  },
+  "notes": [
+    "Counts are conditionally reconstructed from rounded percentages, not exact numerators reported by the study.",
+    "Original CPR reports were unreachable during preparation (HTTPS handshake failure; HTTP timeout).",
+    "M49 country/area membership overrides source region labels; Iran is not Africa despite S1's regional label.",
+    "Primary analysis excludes multicountry rows without country-specific denominators.",
+    "No independent risk-of-bias or cross-publication cohort-overlap adjudication has been completed."
+  ]
+}

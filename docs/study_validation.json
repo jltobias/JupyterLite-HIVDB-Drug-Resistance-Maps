@@ -1,0 +1,65 @@
+{
+  "validated_utc": "2026-11-16T22:09:28.414432+00:00",
+  "python": "3.12.15 (main, Oct  3 2026, 01:05:37) [MSC v.1944 64 bit (AMD64)]",
+  "packages": {
+    "numpy": "2.5.5",
+    "pandas": "2.3.3",
+    "scipy": "1.18.1",
+    "plotly": "6.2.0",
+    "jupyter-book": "1.0.4.post1"
+  },
+  "checks": [
+    "Source snapshot hashes",
+    "Distinct-count pivot equals exported evidence",
+    "Every semantic HTML matrix cell equals its computed value",
+    "Study effect/variance/weight exports match the model",
+    "Conditional summary matches the model",
+    "Interactive forest and funnel artifacts exist",
+    "Atlas country summary matches source evidence and interactive globe exists"
+  ],
+  "catalogue_records": 2282,
+  "matrix_shape": [
+    152,
+    306
+  ],
+  "meta_studies": 71,
+  "meta_countries": 28,
+  "conditional_meta_summary": {
+    "k": 71,
+    "mu_logit": -3.1552897440822734,
+    "tau2": 0.27371386740039283,
+    "Q": 121.07954055391606,
+    "Q_df": 70,
+    "Q_p": 0.0001470357905551396,
+    "I2_percent": 42.18676443620185,
+    "hk_scale": 1.0,
+    "se_mu": 0.10222818257969181,
+    "pooled": 0.04088335277720584,
+    "ci_lower": 0.033595919763415416,
+    "ci_upper": 0.04967028797154076,
+    "pi_lower": 0.014503767284813585,
+    "pi_upper": 0.10989220792194523,
+    "common_effect": 0.049419681725206485
+  },
+  "input_sha256": {
+    "content/09_study_queries_and_provenance.ipynb": "1f475983fe81edde5da5d818dfbad0bfd162605a519813833002bea9195e0f91",
+    "content/10_country_study_matrix.ipynb": "cf4bed0810bf17d28ffcfed414fee95712d8752cb7410aa56e1d8158c8ea85cd",
+    "content/11_study_evidence_atlas.ipynb": "2751cc1d78e074e0d72f4064db191e3e3c7580513af71ce9932f4b5c28a092d6",
+    "content/12_Meta_Analysis.ipynb": "5cd0daad98f7aeca28cd69b23347563872949d3283028d8f83c0d9150ac78cf5",
+    "content/data/meta_analysis/africa_country_areas.csv": "fb2dff7f5b2144e42c761a7ee7839ca37251cb97976a8bb3b65ff5a7568c693b",
+    "content/data/meta_analysis/harmonized_studies.csv": "ff88b98810629d2f222584f77975ce58eaa86c4d96dedfa293567eb26e6e5207",
+    "content/data/studies/annotations.csv": "4b033504391edd36c9a9c65b7485455db4beb96d2687cf179708f39ed3550f11",
+    "content/data/studies/catalogue.csv": "131bebd19e426bcd256d97f75da9054918c4ab1fbac6cf80ca207f1c8ef3df4d",
+    "content/data/studies/evidence.csv": "a502528049dba026ccc30f9496af834b62a24d53072b666b4bf5dcd76f3ea522",
+    "content/data/studies/signals.csv": "644a1fa3b8090321e3583d3a554d2ca3e5e694c48536cff35aaf5a3938d5951f",
+    "content/meta_analysis_tools.py": "f2dae5b4157c47bedbcd2abf920d78a5ad92b6241c0b4c8d9ec5c5ceeac10b74",
+    "content/study_matrix.py": "d27c79e892c925def9c46186046be96957ca65c97f3239cf7f6e4d4981c27e5d",
+    "content/study_query.py": "c2d6c6fa36e03a0736bc1fa633d74fb2c088dbf1f750cfbe4bd0a8f1b8a1536a"
+  },
+  "outputs": "content/outputs/study_matrix, content/outputs/study_atlas, content/outputs/meta_analysis",
+  "limitations": [
+    "Conditional reconstructed event counts",
+    "No independent cohort-overlap or risk-of-bias adjudication",
+    "Browser visual inspection is recorded separately; this report validates data and HTML structure"
+  ]
+}

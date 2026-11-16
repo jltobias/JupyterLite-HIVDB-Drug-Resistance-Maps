@@ -57,6 +57,7 @@ jobs:
       - name: Build Jupyter Book from the Lab notebooks
         run: |
           python scripts/build_book.py
+          python scripts/validate_study_outputs.py
           cp -R _build/html dist/book
           python scripts/validate_site.py --site-dir dist
       - uses: actions/upload-pages-artifact@v3

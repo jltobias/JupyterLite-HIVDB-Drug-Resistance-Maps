@@ -19,6 +19,8 @@ Each numbered chapter is built directly from the matching notebook in `content/`
 
 ## Understand the evidence
 
+**New culmination:** [Study queries](content/09_study_queries_and_provenance.ipynb) → [country matrix](content/10_country_study_matrix.ipynb) → [maps and globe](content/11_study_evidence_atlas.ipynb) → [Meta Analysis](content/12_Meta_Analysis.ipynb). Explore eight study domains, explicit missingness and source provenance, then the African evidence map and a conditional historical TDR synthesis. The meta-analysis uses reconstructed counts from a carefully audited subset; it does not estimate current resistance for the whole database. Read the [source and method definitions](content/study_matrix_methods.md).
+
 The default epidemiologic dataset is the CC0 S1 Table from [Rhee et al. (2015)](https://doi.org/10.1371/journal.pmed.1001810), not a current HIVDB export. Country summaries describe the included studies and should not be assumed to represent national prevalence. Read the [data provenance](DATA_SOURCES.md), [methodology](METHODOLOGY.md), and [citations and attributions](README.md#citation-and-attribution) alongside the chapters.
 
 Explore the [2D maps, 3D maps, globes, 3D scenes, and other resources](content/mapping_resources.md). This is an educational project; it does not provide individual treatment recommendations.
