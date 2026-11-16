@@ -1,0 +1,24 @@
+format: jb-book
+root: index
+parts:
+  - caption: Learn and map
+    chapters:
+      - file: content/00_hiv_drug_resistance_fundamentals
+      - file: content/01_data_coverage
+      - file: content/02_global_tdr_choropleth
+      - file: content/03_drug_class_and_time
+      - file: content/04_pediatric_hivdr_mch_case_study
+  - caption: Conditional analysis templates
+    chapters:
+      - file: content/05_mutation_geographic_clusters
+      - file: content/06_resistance_stratification
+      - file: content/07_subtype_standardized_geography
+      - file: content/08_nnrtI_to_dtg_geographic_history
+  - caption: Sources and resources
+    chapters:
+      - file: content/mapping_resources
+      - file: DATA_SOURCES
+      - file: METHODOLOGY
+      - file: docs/schema
+      - file: README
+      - file: content/assets/README

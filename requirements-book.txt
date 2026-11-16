@@ -1,0 +1,8 @@
+# Jupyter Book 1 uses the Sphinx _config.yml / _toc.yml format in this repo.
+jupyter-book==1.0.4.post1
+# Keep the Sphinx 7-era theme pair compatible with the pinned Book release.
+sphinx-book-theme==1.1.4
+pydata-sphinx-theme==0.15.4
+matplotlib>=3.9,<4
+# Keep the Natural Earth-only base geometry (see README attribution).
+plotly==6.2.0

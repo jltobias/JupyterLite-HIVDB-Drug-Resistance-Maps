@@ -26,6 +26,18 @@ Documentation: https://hivdb.stanford.edu/page/graphiql/
 
 Sierra is useful when an epidemiologist has viral sequences or mutation lists and wants HIVDB resistance interpretation output. It is not used here to manufacture country-level prevalence estimates.
 
+## 4. Pediatric MCH teaching examples (Notebook 04)
+
+Lloyd S, Broyles L, Bacha J. *HIV Drug Resistance in MCH Populations.* MCH Office Hours, CDC/GHC/DGHT/HCTB; August 19, 2026. The existing notebook attributes pediatric CADRE percentages to this presentation. The presentation itself and a verifiable public URL are absent from this checkout, so its numeric transcription has not been independently verified here. Its rights status is not established by its institutional attribution. No slides or images are reproduced.
+
+These aggregate examples describe selected pediatric populations and are separate from the CC0 PLOS surveillance table. The child profiles and denominator thought experiment are synthetic educational examples, not patient data. Notebooks 05–08 ship no patient-level, adjacency, or longitudinal datasets; they report missing-input limitations until suitable source-documented inputs are supplied.
+
+## 5. Geography and educational sources
+
+The pinned Plotly 6.2.0 renderer uses [Natural Earth public-domain map geometry](https://www.naturalearthdata.com/about/terms-of-use/), fetched from Plotly's CDN by the browser. The version pin precedes [Plotly's 6.3 change in geometry sources](https://plotly.com/python/choropleth-maps/). Country labels and ISO codes are normalized with [pycountry](https://github.com/pycountry/pycountry), derived from Debian iso-codes; these are reference metadata, not resistance measurements.
+
+Notebook 00 cites Stanford HIVDB interpretation notes, NIH ClinicalInfo's HIV life-cycle glossary, and WHO's *HIV drug resistance — brief report 2024*. Notebook 04 also uses Stanford's NRTI/INSTI notes and mutation interpretation concepts. The [README citation and attribution section](README.md#citation-and-attribution) lists all source links, video credits, software credits, and scope of reuse. Linked media are not bundled. The [splash provenance](content/assets/README.md) records the original AI-generated illustration and prompt; it contains no measured data.
+
 ## Generated outputs
 
 `fetch_plos_2015.py` writes:

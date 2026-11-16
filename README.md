@@ -1,12 +1,18 @@
 # JupyterLite HIV Drug Resistance Maps
 
+![JupyterLite HIV Drug Resistance Maps: an original conceptual globe, map, and molecular illustration.](content/assets/hivdr-splash.png)
+
+**[Launch JupyterLite Lab](https://jltobias.github.io/JupyterLite-HIVDB-Drug-Resistance-Maps/lab/index.html)** · **[Read the Jupyter Book](https://jltobias.github.io/JupyterLite-HIVDB-Drug-Resistance-Maps/book/)**
+
+The book and Lab are published together by the GitHub Pages workflow. The book link becomes available after the first successful deployment containing the book configuration. The splash is original AI-generated artwork; its markers, bars, and molecular motif are conceptual, not measured data.
+
 Browser-based, reproducible examples for learning the fundamentals of **HIV drug resistance (HIVDR)** and mapping **transmitted HIV drug resistance (TDR)** using public data associated with the Stanford HIV Drug Resistance Database (HIVDB).
 
 ## Launch the live JupyterLite notebooks
 
 Open the browser-based notebook environment here:
 
-**[Launch JupyterLite](https://jltobias.github.io/JupyterLite-HIVDB-Drug-Resistance-Maps/)**
+**[Launch JupyterLite Lab](https://jltobias.github.io/JupyterLite-HIVDB-Drug-Resistance-Maps/lab/index.html)**
 
 No local Python or Jupyter installation is required once the GitHub Pages deployment is active.
 
@@ -57,17 +63,40 @@ Notebook 00 is primarily narrative and visual. Notebooks 01–03 read static CSV
 
 ## Local quick start
 
+The full JupyterLite build also requires [micromamba](https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html) on `PATH`; the Pages workflow installs it automatically. Use Linux or WSL if Windows cannot extract the WebAssembly environment's Unix-style files. The book build runs with ordinary Python.
+
 ```bash
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\\Scripts\\activate
 python -m pip install -r requirements-dev.txt
 python scripts/fetch_plos_2015.py --output-dir content/data
 pytest -q
+python scripts/build_book.py
 jupyter lite build --contents content --output-dir dist
+python -c "import shutil; shutil.copytree('_build/html', 'dist/book', dirs_exist_ok=True)"
+python scripts/validate_site.py --site-dir dist
 python -m http.server -d dist 8000
 ```
 
-Then open `http://localhost:8000`.
+Then open `http://localhost:8000/lab/index.html` or `http://localhost:8000/book/`. On Windows, activate the environment with `.venv\Scripts\Activate.ps1` in PowerShell.
+
+## Jupyter Book chapters
+
+The [Jupyter Book](https://jltobias.github.io/JupyterLite-HIVDB-Drug-Resistance-Maps/book/) uses the same nine `content/*.ipynb` files as the Lab, in the same order. Its table of contents groups Notebooks 00–04 as the learning sequence and Notebooks 05–08 as conditional templates, followed by mapping resources, provenance, methodology, the optional input schema, and this README. Every notebook's first Markdown cell contains the shared splash image and a direct link to open that notebook in the Lab.
+
+The build uses **Jupyter Book 1.0.4.post1**, pinned in `requirements-book.txt` for the `_config.yml` / `_toc.yml` format. It executes the notebooks to publish their tables and figures, fails on execution errors, and does not execute the optional network-capture scripts. Build outputs stay in `_build/`; source notebooks remain unexecuted in version control.
+
+## Maps, globes, 3D scenes, and other resources
+
+| Resource | Links |
+|---|---|
+| **2D Maps** | [Run the global TDR choropleth notebook](https://jltobias.github.io/JupyterLite-HIVDB-Drug-Resistance-Maps/lab/index.html?path=02_global_tdr_choropleth.ipynb) · [Stanford surveillance map](https://hivdb.stanford.edu/page/surveillance-map/) · [Plotly choropleths](https://plotly.com/python/choropleth-maps/) |
+| **3D Maps** | [deck.gl geographic columns](https://deck.gl/docs/api-reference/layers/column-layer) · [pydeck](https://deckgl.readthedocs.io/en/latest/) |
+| **Globes** | [CesiumJS](https://cesium.com/platform/cesiumjs/) · [Plotly map projections](https://plotly.com/python/map-configuration-and-styling/) |
+| **3D Scenes** | [Three.js](https://threejs.org/docs/) · [deck.gl scene graphs](https://deck.gl/docs/api-reference/layers/scenegraph-layer) · [Stanford molecular structures](https://hivdb.stanford.edu/pages/3DStructures/rt.html) |
+| **Other resources** | [Mapping resource guide](content/mapping_resources.md) · [HIVDB](https://hivdb.stanford.edu/) · [WHO HIVDR report](https://www.who.int/publications/i/item/9789240086319) · [Natural Earth](https://www.naturalearthdata.com/) · [JupyterLite documentation](https://jupyterlite.readthedocs.io/en/stable/) |
+
+The repository implements 2D surveillance maps. The 3D map, globe, and scene links are external learning resources, not additional HIVDR analyses or bundled content. Their services, imagery, models, and example datasets have separate terms.
 
 ## Current HIVDB data: two supported paths
 
@@ -106,7 +135,7 @@ This is a teaching repository, not a replacement for HIVDB, WHO guidance, or a f
 
 ## GitHub Pages
 
-The included workflow builds JupyterLite and deploys it with GitHub Pages. In repository settings, set **Pages → Build and deployment → Source = GitHub Actions**.
+The included workflow builds JupyterLite at `/lab/index.html` and Jupyter Book at `/book/`, then deploys them together with GitHub Pages. In repository settings, set **Pages → Build and deployment → Source = GitHub Actions**. The workflow fetches and validates the CC0 data, packages the shared splash in the Lab contents, builds the book, checks both outputs, and uploads one Pages artifact.
 
 Each deployment writes a runtime `jupyter-lite.json` that sets `contentsStorageName` to a value derived from the GitHub commit SHA and sets `enableServiceWorkerCache` to `false`. This prevents browser-local notebook copies from an older deployment from silently overriding newer published notebooks.
 
@@ -115,14 +144,49 @@ Each deployment writes a runtime `jupyter-lite.json` that sets `contentsStorageN
 ```text
 content/                     JupyterLite notebooks and browser-side helper code
 content/data/                generated normalized CSV files
+content/assets/              original splash image and generation provenance
+content/mapping_resources.md  2D / 3D / globe / scene resource guide
+_config.yml, _toc.yml         Jupyter Book settings and notebook chapter order
+index.md                     Jupyter Book landing page
+requirements-book.txt        pinned book builder and visualization dependencies
 scripts/fetch_plos_2015.py   reproducible baseline data fetch + normalization
 scripts/fetch_current_hivdb.py generic current-export importer
 scripts/capture_current_hivdb.py experimental current-map network discovery
 scripts/validate_outputs.py  data validation
+scripts/validate_site.py     notebook, chapter, and published-asset validation
+scripts/build_book.py        book build with interactive HTML chart rendering
 .github/workflows/           CI, JupyterLite Pages deployment, manual discovery
 tests/                       transformation and aggregation tests
 ```
 
 ## Citation and attribution
 
-Please cite Stanford HIVDB and the source studies used in your analysis. Notebook 04 also cites and attributes the MCH Office Hours presentation *HIV Drug Resistance in MCH Populations* to Spencer Lloyd, MPH, MD; Laura Broyles, MD; and Jason Bacha, MD. The repository's code is MIT licensed; source datasets retain their own terms/licensing. The 2015 PLOS Medicine article and its supporting material are dedicated to the public domain under CC0.
+### Epidemiologic data
+
+**Rhee S-Y, Blanco JL, Jordan MR, Taylor J, Lemey P, Varghese V, et al. (2015).** *Geographic and Temporal Trends in the Molecular Epidemiology and Genetic Mechanisms of Transmitted HIV-1 Drug Resistance: An Individual-Patient- and Sequence-Level Meta-Analysis.* PLOS Medicine 12(4): e1001810. [Article and license statement](https://doi.org/10.1371/journal.pmed.1001810); [S1 Table, DOI suffix s004](https://doi.org/10.1371/journal.pmed.1001810.s004); [published correction](https://doi.org/10.1371/journal.pmed.1001845).
+
+This **CC0/public-domain** supporting table is the source of the build-generated study, study-country, coverage, and weighted-summary CSV files used in Notebooks 01–03. The article describes 287 studies, 50,870 people, and 111 countries. This project normalizes country identifiers and calculates descriptive sample-size-weighted percentages from eligible single-country studies; these transformations are not new nationally representative estimates. Cite the original studies listed in S1 Table when using their evidence. Retrieval time, source URL, parser mapping, and raw-file SHA-256 are recorded in `content/data/hivdb_2015_metadata.json` at build time. GenBank sequences underpin the published study; this repo does not download or redistribute those sequences.
+
+**Stanford University HIV Drug Resistance Database (HIVDB).** [Database](https://hivdb.stanford.edu/); [Transmitted Resistance Surveillance Map](https://hivdb.stanford.edu/page/surveillance-map/); [Sierra documentation](https://hivdb.stanford.edu/page/graphiql/). Credit Stanford HIVDB for the surveillance and interpretation resources. The live map is a separate resource; it is not the packaged 2015 snapshot. No current HIVDB export or Sierra result is bundled. Any future export needs its own source citation, retrieval/version record, and redistribution terms; the CC0 status of the PLOS table does not license the entire HIVDB site.
+
+**Lloyd S, Broyles L, Bacha J. (August 19, 2026).** *HIV Drug Resistance in MCH Populations.* MCH Office Hours, CDC/GHC/DGHT/HCTB. The existing Notebook 04 credits Spencer Lloyd, MPH, MD; Laura Broyles, MD; and Jason Bacha, MD for its presentation-derived pediatric CADRE aggregate values and MCH context. The presentation file and a verifiable public URL are **not included in this checkout**, so the transcription cannot be independently checked here. These values describe selected pediatric analysis populations, not national prevalence or Stanford surveillance estimates. No presentation slides, images, or logos are reproduced. Its rights status is not inferred from the presenters' affiliations. The fictional child profiles and denominator thought experiment are explicitly synthetic teaching examples, not patient records.
+
+Notebooks 05–08 contain **conditional analysis templates**, not additional datasets. User-supplied patient-level, denominator, adjacency, or country-time inputs require source-specific provenance and permission for their intended use; none are supplied by this repository.
+
+### Educational references
+
+The narrative and original diagrams in Notebooks 00 and 04 refer readers to these sources; their websites, figures, reports, and videos are not copied into this repository:
+
+- **Stanford HIVDB:** [historical resistance primer](https://hivdb.stanford.edu/pages/documentPage/primer.html), [release notes](https://hivdb.stanford.edu/page/release-notes/), [NRTI](https://hivdb.stanford.edu/dr-summary/resistance-notes/NRTI/), [NNRTI](https://hivdb.stanford.edu/dr-summary/resistance-notes/NNRTI/), [PI](https://hivdb.stanford.edu/dr-summary/resistance-notes/PI/), [INSTI](https://hivdb.stanford.edu/dr-summary/resistance-notes/INSTI/), and [CAI](https://hivdb.stanford.edu/dr-summary/resistance-notes/CAI/) resistance notes; [analysis by mutations](https://hivdb.stanford.edu/hivdb/by-mutations/); [reverse-transcriptase structures](https://hivdb.stanford.edu/pages/3DStructures/rt.html). Algorithm examples are teaching illustrations; use the versioned live resource for current interpretation.
+- **NIH ClinicalInfo.** [Life Cycle, HIV/AIDS Glossary](https://clinicalinfo.hiv.gov/en/glossary/life-cycle). Background for Notebook 00's original life-cycle diagram.
+- **World Health Organization (2024).** [HIV drug resistance — brief report 2024](https://www.who.int/publications/i/item/9789240086319), ISBN 978-92-4-008631-9. Background for resistance definitions; linked, not republished.
+- **Linked videos in Notebook 00:** [HHMI BioInteractive — HIV Life Cycle](https://www.youtube.com/watch?v=PlSvywlLuNw) and [The HIV Life Cycle and Antiretroviral Drugs — Part 1](https://www.youtube.com/watch?v=lRwlpfhYl-c). Credits and rights remain with the original publishers; no video or thumbnail is bundled.
+
+### Geography, software, and original artwork
+
+- **Natural Earth contributors:** geographic boundaries used by the pinned Plotly 6.2.0 renderer. Natural Earth declares its map data [public domain](https://www.naturalearthdata.com/about/terms-of-use/). [Plotly documents](https://plotly.com/python/choropleth-maps/) the change in base-geometry sources starting with 6.3; the Lab and book deliberately pin 6.2.0 to retain Natural Earth-only geometry. Basemap outlines are downloaded by the browser from Plotly's CDN, so map rendering needs network access. These boundaries supply geographic context, not epidemiologic observations.
+- **pycountry / Debian iso-codes:** [pycountry](https://github.com/pycountry/pycountry) supplies the ISO country identifiers and names used in normalization, derived from [iso-codes](https://salsa.debian.org/iso-codes-team/iso-codes). This is reference metadata, not an HIV dataset; retain the packages' distributed license notices.
+- **Project Jupyter, JupyterLite, Jupyter Book, and the scientific Python contributors:** browser notebooks, book publishing, data processing, and visualization use their independently licensed software. See [requirements.txt](requirements.txt), [requirements-book.txt](requirements-book.txt), and [environment.yml](environment.yml). The repository's [MIT license](LICENSE) covers its code, not every linked resource or third-party package.
+- **Splash artwork:** `content/assets/hivdr-splash.png` was generated specifically for this project with the built-in OpenAI image-generation tool on November 16, 2026, without source images, copied maps, third-party artwork, logos, or screenshots. The [asset provenance and exact generation prompt](content/assets/README.md) record how it was made. It is an illustrative cover, not a scientific figure or an institutional endorsement. No claim is made that all linked resources are copyright-free.
+
+See [CITATION.cff](CITATION.cff) for this repository's software citation and [DATA_SOURCES.md](DATA_SOURCES.md) for file-level provenance.

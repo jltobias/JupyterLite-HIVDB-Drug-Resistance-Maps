@@ -7,6 +7,7 @@ dependencies:
   - numpy
   - pandas
   - matplotlib
-  - plotly
+  # Plotly <6.3 uses Natural Earth-only base geometry.
+  - plotly=6.2.0
   - nbformat>=4.2
   - ipywidgets

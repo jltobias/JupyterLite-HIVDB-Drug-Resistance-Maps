@@ -1,11 +1,14 @@
 .venv/
 __pycache__/
 .pytest_cache/
+.jupyterlite.doit.db*
 *.pyc
 dist/
 _build/
 captured_hivdb/
 content/data/*.xlsx
 content/data/*.xls
+content/data/hivdb_*_2015.csv
+content/data/hivdb_2015_metadata.json
 content/data/current/
 !content/data/README.md

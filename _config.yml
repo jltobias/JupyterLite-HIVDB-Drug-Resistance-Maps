@@ -1,0 +1,39 @@
+title: HIV Drug Resistance Maps
+author: James L. Tobias
+copyright: "2026"
+only_build_toc_files: true
+exclude_patterns:
+  - .venv/**
+  - dist/**
+  - _build/**
+  - .git/**
+  - "**/.ipynb_checkpoints/**"
+execute:
+  execute_notebooks: force
+  timeout: 180
+  allow_errors: false
+repository:
+  url: https://github.com/jltobias/JupyterLite-HIVDB-Drug-Resistance-Maps
+  branch: main
+html:
+  use_repository_button: true
+  use_issues_button: true
+  home_page_in_navbar: false
+sphinx:
+  config:
+    # Execution happens in the Lab. Omit the unused Thebe/Binder integration.
+    extensions:
+      - sphinx_togglebutton
+      - sphinx_copybutton
+      - myst_nb
+      - jupyter_book
+      - sphinx_comments
+      - sphinx_external_toc
+      - sphinx.ext.intersphinx
+      - sphinx_design
+      - sphinx_book_theme
+    # Use native Python only for book execution; Lab keeps its WASM kernel.
+    nb_kernel_rgx_aliases:
+      xpython: python3
+    myst_heading_anchors: 3
+    html_baseurl: https://jltobias.github.io/JupyterLite-HIVDB-Drug-Resistance-Maps/book/
