@@ -6,6 +6,8 @@ dependencies:
   - xeus-python
   - numpy
   - pandas
+  # pandas Styler renders the semantic matrix and meta-analysis tables.
+  - jinja2>=3.1
   - scipy
   - matplotlib
   # Plotly <6.3 uses Natural Earth-only base geometry.
