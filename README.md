@@ -2,7 +2,21 @@
 
 ![JupyterLite HIV Drug Resistance Maps: an original conceptual globe, map, and molecular illustration.](content/assets/hivdr-splash.png)
 
+## Maps, globes, 3D scenes, and other resources
+
 **[Launch JupyterLite Lab](https://jltobias.github.io/JupyterLite-HIVDB-Drug-Resistance-Maps/lab/index.html)** · **[Read the Jupyter Book](https://jltobias.github.io/JupyterLite-HIVDB-Drug-Resistance-Maps/book/)**
+
+| Resource | Links |
+|---|---|
+| **2D Maps** | [Run the global TDR choropleth notebook](https://jltobias.github.io/JupyterLite-HIVDB-Drug-Resistance-Maps/lab/index.html?path=02_global_tdr_choropleth.ipynb) · [Stanford surveillance map](https://hivdb.stanford.edu/page/surveillance-map/) · [Plotly choropleths](https://plotly.com/python/choropleth-maps/) |
+| **3D Maps** | [deck.gl geographic columns](https://deck.gl/docs/api-reference/layers/column-layer) · [pydeck](https://deckgl.readthedocs.io/en/latest/) |
+| **Globes** | [CesiumJS](https://cesium.com/platform/cesiumjs/) · [Plotly map projections](https://plotly.com/python/map-configuration-and-styling/) |
+| **3D Scenes** | [Three.js](https://threejs.org/docs/) · [deck.gl scene graphs](https://deck.gl/docs/api-reference/layers/scenegraph-layer) · [Stanford molecular structures](https://hivdb.stanford.edu/pages/3DStructures/rt.html) |
+| **Other resources** | [Mapping resource guide](content/mapping_resources.md) · [HIVDB](https://hivdb.stanford.edu/) · [WHO HIVDR report](https://www.who.int/publications/i/item/9789240086319) · [Natural Earth](https://www.naturalearthdata.com/) · [JupyterLite documentation](https://jupyterlite.readthedocs.io/en/stable/) |
+
+The repository implements 2D surveillance maps. The 3D map, globe, and scene links are external learning resources, not additional HIVDR analyses or bundled content. Their services, imagery, models, and example datasets have separate terms.
+
+## About this repository
 
 The book and Lab are published together by the GitHub Pages workflow. The book link becomes available after the first successful deployment containing the book configuration. The splash is original AI-generated artwork; its markers, bars, and molecular motif are conceptual, not measured data.
 
@@ -85,18 +99,6 @@ Then open `http://localhost:8000/lab/index.html` or `http://localhost:8000/book/
 The [Jupyter Book](https://jltobias.github.io/JupyterLite-HIVDB-Drug-Resistance-Maps/book/) uses the same nine `content/*.ipynb` files as the Lab, in the same order. Its table of contents groups Notebooks 00–04 as the learning sequence and Notebooks 05–08 as conditional templates, followed by mapping resources, provenance, methodology, the optional input schema, and this README. Every notebook's first Markdown cell contains the shared splash image and a direct link to open that notebook in the Lab.
 
 The build uses **Jupyter Book 1.0.4.post1**, pinned in `requirements-book.txt` for the `_config.yml` / `_toc.yml` format. It executes the notebooks to publish their tables and figures, fails on execution errors, and does not execute the optional network-capture scripts. Build outputs stay in `_build/`; source notebooks remain unexecuted in version control.
-
-## Maps, globes, 3D scenes, and other resources
-
-| Resource | Links |
-|---|---|
-| **2D Maps** | [Run the global TDR choropleth notebook](https://jltobias.github.io/JupyterLite-HIVDB-Drug-Resistance-Maps/lab/index.html?path=02_global_tdr_choropleth.ipynb) · [Stanford surveillance map](https://hivdb.stanford.edu/page/surveillance-map/) · [Plotly choropleths](https://plotly.com/python/choropleth-maps/) |
-| **3D Maps** | [deck.gl geographic columns](https://deck.gl/docs/api-reference/layers/column-layer) · [pydeck](https://deckgl.readthedocs.io/en/latest/) |
-| **Globes** | [CesiumJS](https://cesium.com/platform/cesiumjs/) · [Plotly map projections](https://plotly.com/python/map-configuration-and-styling/) |
-| **3D Scenes** | [Three.js](https://threejs.org/docs/) · [deck.gl scene graphs](https://deck.gl/docs/api-reference/layers/scenegraph-layer) · [Stanford molecular structures](https://hivdb.stanford.edu/pages/3DStructures/rt.html) |
-| **Other resources** | [Mapping resource guide](content/mapping_resources.md) · [HIVDB](https://hivdb.stanford.edu/) · [WHO HIVDR report](https://www.who.int/publications/i/item/9789240086319) · [Natural Earth](https://www.naturalearthdata.com/) · [JupyterLite documentation](https://jupyterlite.readthedocs.io/en/stable/) |
-
-The repository implements 2D surveillance maps. The 3D map, globe, and scene links are external learning resources, not additional HIVDR analyses or bundled content. Their services, imagery, models, and example datasets have separate terms.
 
 ## Current HIVDB data: two supported paths
 
